@@ -66,7 +66,10 @@ loop@ for (i in 1..10) {
 	}
 }
 ```
+
+**Label로 Return**
+- 코틀린에서 중첩 될 수
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MDI2NzcwMCwtMTYzOTY1Njc3OCwtMT
-I1MTc3MjAyMywtMTQ3OTkzNjA3LC0xOTI1OTg2NjAwXX0=
+eyJoaXN0b3J5IjpbMzEzMjQ4MTUxLC0xNjM5NjU2Nzc4LC0xMj
+UxNzcyMDIzLC0xNDc5OTM2MDcsLTE5MjU5ODY2MDBdfQ==
 -->
