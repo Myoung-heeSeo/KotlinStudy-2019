@@ -41,8 +41,13 @@ kotlin.text.*
 import bar.Bar as bBar
 ```
 
-
+**Label로 Break and Continue**
+- 식별자 + @ 형태로 사용(label@)
+```kotlin
+loop@ for (i in 1..10) {
+pr
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQzMjc5NTAsLTEyNTE3NzIwMjMsLT
-E0Nzk5MzYwNywtMTkyNTk4NjYwMF19
+eyJoaXN0b3J5IjpbMTM5MjEyNzk2NSwtMTI1MTc3MjAyMywtMT
+Q3OTkzNjA3LC0xOTI1OTg2NjAwXX0=
 -->
