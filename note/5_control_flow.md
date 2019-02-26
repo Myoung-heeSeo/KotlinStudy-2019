@@ -77,8 +77,11 @@ when (x) {
 	else -> print("s does not encode x")
 }
 ```
+- range나 collection에 in이나 !in으로 범위 등을 검사할 수 있음
+```kotlin
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDg5MjU2Myw4NjkyMzAyMTYsLTE1OD
-A3MTcxN119
+eyJoaXN0b3J5IjpbMzU3NDI1NTMwLC0yNjQ4OTI1NjMsODY5Mj
+MwMjE2LC0xNTgwNzE3MTddfQ==
 -->
