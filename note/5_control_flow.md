@@ -119,10 +119,15 @@ for (item in collection) {
 	print(item.name)
 }
 ```
-- for문을 지원하는 iterator의 조건
-	* 
+- 배열이나 리스트를 반복할 때, index를 이용하고 싶다면 indices를 이용하면 됨
+```kotlin
+val array = arrayOf("가", "나", "다")
+for (i in array.indices) {
+	println("$i: ${array[i]}")
+	
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMzNTU3ODAzLDEwNTY5NzM2NTYsMTYzMT
-I0MjcwOSwtMjY0ODkyNTYzLDg2OTIzMDIxNiwtMTU4MDcxNzE3
-XX0=
+eyJoaXN0b3J5IjpbMTI1NjM5NTQ0OSwzMzM1NTc4MDMsMTA1Nj
+k3MzY1NiwxNjMxMjQyNzA5LC0yNjQ4OTI1NjMsODY5MjMwMjE2
+LC0xNTgwNzE3MTddfQ==
 -->
