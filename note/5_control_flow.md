@@ -62,9 +62,10 @@ var res = when (x) {
 	false -> "틀리다"
 }
 ```
+- d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjQ5MTU5OCw4NjkyMzAyMTYsLTE1OD
-A3MTcxN119
+eyJoaXN0b3J5IjpbLTE1NTQ4Njc5NjksODY5MjMwMjE2LC0xNT
+gwNzE3MTddfQ==
 -->
