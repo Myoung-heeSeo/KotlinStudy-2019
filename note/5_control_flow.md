@@ -40,8 +40,12 @@ when(x) {
 	1 -> print("x == 1")
 	2 -> print("x == 2")
 	else -> {	//Note the block
-		print("x is neither 1 nor
+		print("x is neither 1 nor 2")
+	}
+}
 ```
+ 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTI5MTk0MzUsLTE1ODA3MTcxN119
+eyJoaXN0b3J5IjpbODY5MjMwMjE2LC0xNTgwNzE3MTddfQ==
 -->
