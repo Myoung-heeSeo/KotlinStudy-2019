@@ -8,7 +8,7 @@
 **Package(패키지)**
 - 소스 파일은 패키지 선언으로 시작
 - 모든 콘텐츠(클래스, 함수, ...)는 패키지에 포함
-- 패키지를 명시하지 않으면 이름 없는 default 패키지에 포함(import 안해도 함수 접근 가능)
+- 패키지를 명시하지 않으면 이름 없는 기본 패키지에 포함(import 안해도 함수 접근 가능)
 ```kotlin
 package foo.bar
 
@@ -21,6 +21,18 @@ fun main(args: Array<String>) {
 	foo.bar.Goo()
 }
 ```
+
+**기본 패키지**
+- 기본으로 import되는 패키지가 있음(플랫폼 별로 다름)
+```kotlin
+kotlin.*
+kotlin.annotation.*
+kotlin.collections.*
+kotlin.comparison.*
+kotlin.io.*
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzk5MzYwNywtMTkyNTk4NjYwMF19
+eyJoaXN0b3J5IjpbLTkwNzY5NjU0OSwtMTQ3OTkzNjA3LC0xOT
+I1OTg2NjAwXX0=
 -->
