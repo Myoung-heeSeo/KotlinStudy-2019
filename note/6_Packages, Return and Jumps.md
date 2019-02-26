@@ -119,13 +119,19 @@ fun foo4() {
 	print("End")
 }
 ```
-**레이블 return시 값을 반환할 경우**
+**레이블 return시 값을 반환하기**
 - return@label 1 형태로 사용
 - return + @label + 값
 ```kotlin
-
+fun foo(): List<String> {
+	var ints = listOf(0, 1, 2, 3)
+	val result = ints.map{
+		if (it == 0) {
+			return@map "zero"// return at named label
+		}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQzNzUxMTAsLTc5NzY5NDI4MywyNT
+eyJoaXN0b3J5IjpbLTE3NjMwMzIxODgsLTc5NzY5NDI4MywyNT
 kwOTU2OTgsLTE2Mzk2NTY3NzgsLTEyNTE3NzIwMjMsLTE0Nzk5
 MzYwNywtMTkyNTk4NjYwMF19
 -->
