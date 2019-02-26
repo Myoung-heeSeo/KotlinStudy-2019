@@ -124,10 +124,17 @@ for (item in collection) {
 val array = arrayOf("가", "나", "다")
 for (i in array.indices) {
 	println("$i: ${array[i]}")
-	
+}
+```
+- Index를 이용하고 싶을 때, withIndex()를 이용할 수도 있음
+```kotlin
+val array = arrayOf("가", "나", "다")
+for ((index, value) in array.withIndex()) {
+	println("$index: ${value}")
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjM5NTQ0OSwzMzM1NTc4MDMsMTA1Nj
+eyJoaXN0b3J5IjpbMTY4MTg5NDA1NywzMzM1NTc4MDMsMTA1Nj
 k3MzY1NiwxNjMxMjQyNzA5LC0yNjQ4OTI1NjMsODY5MjMwMjE2
 LC0xNTgwNzE3MTddfQ==
 -->
