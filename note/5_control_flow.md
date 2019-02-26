@@ -135,18 +135,17 @@ for ((index, value) in array.withIndex()) {
 ```
 
 **While Loops**
-- do-while문에서 body의 지역변수를 do-while문의 조건문이 참조 가능
+- do-while문에서 body(do)의 지역변수를 조건문(while)이 참조 가능
 ```kotlin
-while (x>0) {
-	x--
-}
+while () {}
 ```
 ```kotlin
 do {
 	val y = retrieveData()
+} while (y != null) //
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2MTg2MDIsMzMzNTU3ODAzLDEwNTY5Nz
-M2NTYsMTYzMTI0MjcwOSwtMjY0ODkyNTYzLDg2OTIzMDIxNiwt
-MTU4MDcxNzE3XX0=
+eyJoaXN0b3J5IjpbNTEwMDc3Mjg0LDMzMzU1NzgwMywxMDU2OT
+czNjU2LDE2MzEyNDI3MDksLTI2NDg5MjU2Myw4NjkyMzAyMTYs
+LTE1ODA3MTcxN119
 -->
