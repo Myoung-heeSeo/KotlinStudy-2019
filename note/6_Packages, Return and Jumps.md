@@ -106,8 +106,14 @@ fun foo3() {
 	print("End")
 }
 ```
+**암시적 레이블(람다에 라벨 쓰기 귀찮을 때)**
+- 직접 label을 사용하는 것 보다 편리
+- 암시적 레이블은 람다가 사용된 함수의 이름과 동일함
+```kotlin
+fun foo4(
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDQ2MzA5NTksMjU5MDk1Njk4LC0xNj
-M5NjU2Nzc4LC0xMjUxNzcyMDIzLC0xNDc5OTM2MDcsLTE5MjU5
-ODY2MDBdfQ==
+eyJoaXN0b3J5IjpbMTcwMTQ2MjIxOCwyNTkwOTU2OTgsLTE2Mz
+k2NTY3NzgsLTEyNTE3NzIwMjMsLTE0Nzk5MzYwNywtMTkyNTk4
+NjYwMF19
 -->
