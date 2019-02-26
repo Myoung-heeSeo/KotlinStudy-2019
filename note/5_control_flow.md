@@ -144,8 +144,10 @@ do {
 	val y = retrieveData()
 } while (y != null) //y is visible here!
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzI4NTY4OCwzMzM1NTc4MDMsMTA1Nj
-k3MzY1NiwxNjMxMjQyNzA5LC0yNjQ4OTI1NjMsODY5MjMwMjE2
-LC0xNTgwNzE3MTddfQ==
+eyJoaXN0b3J5IjpbNDA4Njc4NTQ4LDEzODMyODU2ODgsMzMzNT
+U3ODAzLDEwNTY5NzM2NTYsMTYzMTI0MjcwOSwtMjY0ODkyNTYz
+LDg2OTIzMDIxNiwtMTU4MDcxNzE3XX0=
 -->
