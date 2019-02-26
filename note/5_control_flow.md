@@ -79,9 +79,17 @@ when (x) {
 ```
 - range나 collection에 in이나 !in으로 범위 등을 검사할 수 있음
 ```kotlin
-
+val validNumbers = listOf(3, 6, 9)
+when (x) {
+	in validNumbers -> print("x is valid")
+	in 1..10 -> print("x is in the range")
+	!in 10..20 -> print("x is outside the range")
+	else -> print("none of the above")
+}
 ```
+-
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU3NDI1NTMwLC0yNjQ4OTI1NjMsODY5Mj
+eyJoaXN0b3J5IjpbMjIzODM5MDU3LC0yNjQ4OTI1NjMsODY5Mj
 MwMjE2LC0xNTgwNzE3MTddfQ==
 -->
