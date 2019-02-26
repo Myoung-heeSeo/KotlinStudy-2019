@@ -68,8 +68,18 @@ loop@ for (i in 1..10) {
 ```
 
 **Label로 Return**
-- 코틀린에서 중첩 될 수
+- 코틀린에서 중첩 될 수 있는 요소들
+	* 함수 리터럴
+	* 지역함수
+	* 객체 표현식
+	* 함수
+```kotlin
+fun foo() {
+	var ints = listOf(0, 1, 2, 3)
+ints.forEach(fun(value: Int){
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzMjQ4MTUxLC0xNjM5NjU2Nzc4LC0xMj
-UxNzcyMDIzLC0xNDc5OTM2MDcsLTE5MjU5ODY2MDBdfQ==
+eyJoaXN0b3J5IjpbLTE2NjAwMDUxMDMsLTE2Mzk2NTY3NzgsLT
+EyNTE3NzIwMjMsLTE0Nzk5MzYwNywtMTkyNTk4NjYwMF19
 -->
