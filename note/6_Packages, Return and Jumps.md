@@ -83,8 +83,15 @@ fun foo() {
 	print("End")
 }
 ```
-
+**Lambda 식에서 return 시 주의사항**
+- 람다식에서 return 시 nearest enclosing 함수가 return
+- 람다식에 대해서만 return 하려면 label을 이용
+```kotlin
+fun foo() {
+	var ints = listOf(0, 1, 2, 3)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5MDk1Njk4LC0xNjM5NjU2Nzc4LC0xMj
-UxNzcyMDIzLC0xNDc5OTM2MDcsLTE5MjU5ODY2MDBdfQ==
+eyJoaXN0b3J5IjpbMTY1ODQyMjI2NiwyNTkwOTU2OTgsLTE2Mz
+k2NTY3NzgsLTEyNTE3NzIwMjMsLTE0Nzk5MzYwNywtMTkyNTk4
+NjYwMF19
 -->
