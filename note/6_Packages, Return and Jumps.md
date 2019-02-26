@@ -34,10 +34,15 @@ kotlin.ranges.*
 kotlin.sequences.*
 kotlin.text.*
 ```
-- 충돌되는 패키지 내 함수를 import 경우
+- 충돌되는 패키지 내 함수를 import 경우, 'as'로 로컬 리네임 가능
+```kotlin
+//foo.Bar
+//bar.Bar
+import bar.Bar as bBar
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5MTYxMjAzLC0xMjUxNzcyMDIzLC0xND
-c5OTM2MDcsLTE5MjU5ODY2MDBdfQ==
+eyJoaXN0b3J5IjpbLTEzNDQzMjc5NTAsLTEyNTE3NzIwMjMsLT
+E0Nzk5MzYwNywtMTkyNTk4NjYwMF19
 -->
