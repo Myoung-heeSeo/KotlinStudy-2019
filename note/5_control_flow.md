@@ -87,9 +87,16 @@ when (x) {
 	else -> print("none of the above")
 }
 ```
--
+- is나 !is를 이용하여 타입 검사 가능
+	* 스마트 캐스트 적용
+```kotlin
+fun hasPrefix(x: Any) = when(x) {
+	is Sring -> x.startsWith("prefix)
+	else -> false
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzODM5MDU3LC0yNjQ4OTI1NjMsODY5Mj
-MwMjE2LC0xNTgwNzE3MTddfQ==
+eyJoaXN0b3J5IjpbMTYzMTI0MjcwOSwtMjY0ODkyNTYzLDg2OT
+IzMDIxNiwtMTU4MDcxNzE3XX0=
 -->
