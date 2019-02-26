@@ -21,9 +21,16 @@ val max = if(a>b) a else b
 val max = if(a>b) {
 	print("Choose a")
 	a
-
+} else {
+	print("Choose b")
+	b
+}
 ```
-
+- 삼항연산자(ternary)가 없음
+	* if문이 삼항연산자 역할을 해내기 때문
+```kotlin
+ㄹ
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2ODE3NTcxMCwtMTU4MDcxNzE3XX0=
+eyJoaXN0b3J5IjpbLTEwNTI4Mzk5NzQsLTE1ODA3MTcxN119
 -->
