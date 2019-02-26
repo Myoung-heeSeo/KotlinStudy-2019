@@ -44,10 +44,12 @@ when(x) {
 	}
 }
 ```
- - when문이 식으로 사용된 경우에는 조건을 만족하는 branch의 값이 전체 식의 결과 값이 됨
+ - when문이 식으로 사용된 경우
+	 -> 조건을 만족하는 branch의 값이 전체 식의 결과 값, else
 - else의 경우 다른 branch들의 조건이 만족되지 않을 때 수행됨
+- when이 식으로 사용된 경우 else문이 필수임
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTYwOTIzNiw4NjkyMzAyMTYsLTE1OD
-A3MTcxN119
+eyJoaXN0b3J5IjpbNDQ1NTQ5MjI1LDg2OTIzMDIxNiwtMTU4MD
+cxNzE3XX0=
 -->
