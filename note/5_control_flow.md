@@ -126,7 +126,7 @@ for (i in array.indices) {
 	println("$i: ${array[i]}")
 }
 ```
-- Index를 이용하고 싶을 때, withIndex()를 이용할 수도 있음
+- withIndex()로도 index 이용 가능
 ```kotlin
 val array = arrayOf("가", "나", "다")
 for ((index, value) in array.withIndex()) {
@@ -134,7 +134,7 @@ for ((index, value) in array.withIndex()) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTg5NDA1NywzMzM1NTc4MDMsMTA1Nj
+eyJoaXN0b3J5IjpbMTAyOTY5OTkzMywzMzM1NTc4MDMsMTA1Nj
 k3MzY1NiwxNjMxMjQyNzA5LC0yNjQ4OTI1NjMsODY5MjMwMjE2
 LC0xNTgwNzE3MTddfQ==
 -->
