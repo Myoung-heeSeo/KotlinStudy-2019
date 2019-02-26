@@ -96,8 +96,17 @@ fun hasPrefix(x: Any) = when(x) {
 }
 ```
 - when은 if-else if 체인을 대체할 수 있음
-- when에 인자를 입력하지 않으면, 논리연산으로 처리
+- when에 인자를 입력하지 않으면, 논리연산으로 처리됨
+```kotlin
+when{	//인자 없음
+	x.isOdd() -> print("x is odd")
+	x.isEven() -> print("x is even")
+	else -> print("x is funny")
+}
+```
+
+**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyMDgxNDcsMTYzMTI0MjcwOSwtMjY0OD
-kyNTYzLDg2OTIzMDIxNiwtMTU4MDcxNzE3XX0=
+eyJoaXN0b3J5IjpbMjA2MTA4MDQ2NCwxNjMxMjQyNzA5LC0yNj
+Q4OTI1NjMsODY5MjMwMjE2LC0xNTgwNzE3MTddfQ==
 -->
