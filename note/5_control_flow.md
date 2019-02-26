@@ -112,8 +112,14 @@ for (item in collection)	//collection은 iterator를 제공하는 메소드가 �
 	print(item)
 ```
 
-- for문의 body가
+- for문의 body가 블록이 올 수도 있음
+```kotlin
+for (item in collection) {
+	print(item.id)
+	print(item.name)
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4NDYyMzY4LDE2MzEyNDI3MDksLTI2ND
-g5MjU2Myw4NjkyMzAyMTYsLTE1ODA3MTcxN119
+eyJoaXN0b3J5IjpbMTA1Njk3MzY1NiwxNjMxMjQyNzA5LC0yNj
+Q4OTI1NjMsODY5MjMwMjE2LC0xNTgwNzE3MTddfQ==
 -->
