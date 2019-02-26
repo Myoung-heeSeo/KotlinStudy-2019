@@ -119,8 +119,13 @@ fun foo4() {
 	print("End")
 }
 ```
+**레이블 return시 값을 반환할 경우**
+- return@label 1 형태로 사용
+- return + @label + 값
+```kotlin
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NzY5NDI4MywyNTkwOTU2OTgsLTE2Mz
-k2NTY3NzgsLTEyNTE3NzIwMjMsLTE0Nzk5MzYwNywtMTkyNTk4
-NjYwMF19
+eyJoaXN0b3J5IjpbLTIwODQzNzUxMTAsLTc5NzY5NDI4MywyNT
+kwOTU2OTgsLTE2Mzk2NTY3NzgsLTEyNTE3NzIwMjMsLTE0Nzk5
+MzYwNywtMTkyNTk4NjYwMF19
 -->
