@@ -32,7 +32,7 @@ val max = if(a>b) {
 val max = if(a>b) a else b
 ```
 
-**when**
+**When**
 - switch문 역할
 - 각각의 branches의 조건문에 만족할 때 까지 위에서 부터 순차적으로 인자를 비교함
 ```kotlin
@@ -105,8 +105,15 @@ when{	//인자 없음
 }
 ```
 
-**
+**For Loops**
+- for문은 iterator을 제공하는 모든 것을 반복할 수 있음
+```kotlin
+for (item in collection)
+	print(item)
+```
+
+- for문의 body가
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTA4MDQ2NCwxNjMxMjQyNzA5LC0yNj
+eyJoaXN0b3J5IjpbLTgzNTQ4OTUxNSwxNjMxMjQyNzA5LC0yNj
 Q4OTI1NjMsODY5MjMwMjE2LC0xNTgwNzE3MTddfQ==
 -->
