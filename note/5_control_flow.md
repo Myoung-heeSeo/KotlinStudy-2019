@@ -72,10 +72,13 @@ when (x) {
 - Branch의 조건문에 함수나 식을 사용할 수 있음
 ```kotlin
 when (x) {
-	parseInt(x) -
+	parseInt(x) -> print("s encodes x")
+	1 + 3 -> print("4")
+	else -> print("s does not encode x")
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MzgwNTM5OSw4NjkyMzAyMTYsLTE1OD
+eyJoaXN0b3J5IjpbLTI2NDg5MjU2Myw4NjkyMzAyMTYsLTE1OD
 A3MTcxN119
 -->
