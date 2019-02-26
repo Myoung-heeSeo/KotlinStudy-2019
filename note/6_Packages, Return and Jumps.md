@@ -59,9 +59,9 @@ loop@ for (i in 1..10) {
 loop@ for (i in 1..10) {
 	println("--- i: $i ---")
 for (j in 1..10) {
-	if 
+	if (j < 2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg4OTQ0ODM4LC0xMjUxNzcyMDIzLC0xND
-c5OTM2MDcsLTE5MjU5ODY2MDBdfQ==
+eyJoaXN0b3J5IjpbLTE2Mzk2NTY3NzgsLTEyNTE3NzIwMjMsLT
+E0Nzk5MzYwNywtMTkyNTk4NjYwMF19
 -->
