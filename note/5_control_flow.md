@@ -108,7 +108,7 @@ when{	//인자 없음
 **For Loops**
 - for문은 iterator을 제공하는 모든 것을 반복할 수 있음
 ```kotlin
-for (item in collection)	//collection은 iterator를 제공하는 메소드가 반환되어야 함
+for (item in collection)	
 	print(item)
 ```
 
@@ -119,7 +119,10 @@ for (item in collection) {
 	print(item.name)
 }
 ```
+- for문을 지원하는 iterator의 조건
+	* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1Njk3MzY1NiwxNjMxMjQyNzA5LC0yNj
-Q4OTI1NjMsODY5MjMwMjE2LC0xNTgwNzE3MTddfQ==
+eyJoaXN0b3J5IjpbMzMzNTU3ODAzLDEwNTY5NzM2NTYsMTYzMT
+I0MjcwOSwtMjY0ODkyNTYzLDg2OTIzMDIxNiwtMTU4MDcxNzE3
+XX0=
 -->
