@@ -37,8 +37,11 @@ val max = if(a>b) a else b
 - 각각의 branches의 조건문에 만족할 때 까지 위에서 부터 순차적으로 인자를 비교함
 ```kotlin
 when(x) {
-	1 -> print("x == 1"
+	1 -> print("x == 1")
+	2 -> print("x == 2")
+	else -> {	//Note the block
+		print("x is neither 1 nor
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUzMjg5Njg0LC0xNTgwNzE3MTddfQ==
+eyJoaXN0b3J5IjpbLTEzMTI5MTk0MzUsLTE1ODA3MTcxN119
 -->
