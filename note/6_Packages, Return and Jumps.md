@@ -89,9 +89,25 @@ fun foo() {
 ```kotlin
 fun foo() {
 	var ints = listOf(0, 1, 2, 3)
+	ints.forEach {
+		if (it == 1) return
+		print(it)
+	}
+	print("End")
+}
+```
+```kotlin
+fun foo3() {
+	var ints = listOf(0, 1, 2, 3)
+	ints.forEach label@ {
+		if(it == 1) return@label
+		print(it)
+	}
+	print("End")
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODQyMjI2NiwyNTkwOTU2OTgsLTE2Mz
-k2NTY3NzgsLTEyNTE3NzIwMjMsLTE0Nzk5MzYwNywtMTkyNTk4
-NjYwMF19
+eyJoaXN0b3J5IjpbLTE0MDQ2MzA5NTksMjU5MDk1Njk4LC0xNj
+M5NjU2Nzc4LC0xMjUxNzcyMDIzLC0xNDc5OTM2MDcsLTE5MjU5
+ODY2MDBdfQ==
 -->
