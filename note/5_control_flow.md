@@ -5,7 +5,12 @@
 
 # Kotlin Lecture - 5. Control Flow
 
+**If else**
+```kotlin
+if() {}
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODA3MTcxN119
+eyJoaXN0b3J5IjpbOTA1MjExNzIwLC0xNTgwNzE3MTddfQ==
 -->
