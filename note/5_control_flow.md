@@ -44,8 +44,9 @@ when(x) {
 	}
 }
 ```
- 
+ - when문이 식으로 사용된 경우에는 조건을 만족하는 branch의 값이 전체 식의 결과 값이 됨
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5MjMwMjE2LC0xNTgwNzE3MTddfQ==
+eyJoaXN0b3J5IjpbMTQ4OTMyNzIwMiw4NjkyMzAyMTYsLTE1OD
+A3MTcxN119
 -->
