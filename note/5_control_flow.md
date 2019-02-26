@@ -142,10 +142,10 @@ while () {}
 ```kotlin
 do {
 	val y = retrieveData()
-} while (y != null) //
+} while (y != null) //y is visible here!
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwMDc3Mjg0LDMzMzU1NzgwMywxMDU2OT
-czNjU2LDE2MzEyNDI3MDksLTI2NDg5MjU2Myw4NjkyMzAyMTYs
-LTE1ODA3MTcxN119
+eyJoaXN0b3J5IjpbMTM4MzI4NTY4OCwzMzM1NTc4MDMsMTA1Nj
+k3MzY1NiwxNjMxMjQyNzA5LC0yNjQ4OTI1NjMsODY5MjMwMjE2
+LC0xNTgwNzE3MTddfQ==
 -->
