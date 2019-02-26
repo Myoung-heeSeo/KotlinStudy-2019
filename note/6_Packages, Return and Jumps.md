@@ -30,9 +30,13 @@ kotlin.annotation.*
 kotlin.collections.*
 kotlin.comparison.*
 kotlin.io.*
-
+kotlin.ranges.*
+kotlin.sequences.*
+kotlin.text.*
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNzY5NjU0OSwtMTQ3OTkzNjA3LC0xOT
-I1OTg2NjAwXX0=
+eyJoaXN0b3J5IjpbLTEyNTE3NzIwMjMsLTE0Nzk5MzYwNywtMT
+kyNTk4NjYwMF19
 -->
