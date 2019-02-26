@@ -91,12 +91,13 @@ when (x) {
 	* 스마트 캐스트 적용
 ```kotlin
 fun hasPrefix(x: Any) = when(x) {
-	is Sring -> x.startsWith("prefix)
+	is Sring -> x.startsWith("prefix")
 	else -> false
 }
 ```
-
+- when은 if-else if 체인을 대체할 수 있음
+- when에 인자를 입력하지 않으면, 논리연산으로 처리
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTI0MjcwOSwtMjY0ODkyNTYzLDg2OT
-IzMDIxNiwtMTU4MDcxNzE3XX0=
+eyJoaXN0b3J5IjpbMzUyMDgxNDcsMTYzMTI0MjcwOSwtMjY0OD
+kyNTYzLDg2OTIzMDIxNiwtMTU4MDcxNzE3XX0=
 -->
