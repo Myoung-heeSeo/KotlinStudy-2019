@@ -29,8 +29,16 @@ val max = if(a>b) {
 - 삼항연산자(ternary)가 없음
 	* if문이 삼항연산자 역할을 해내기 때문
 ```kotlin
-ㄹ
+val max = if(a>b) a else b
+```
+
+**when**
+- switch문 역할
+- 각각의 branches의 조건문에 만족할 때 까지 위에서 부터 순차적으로 인자를 비교함
+```kotlin
+when(x) {
+	1 -> print("x == 1"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTI4Mzk5NzQsLTE1ODA3MTcxN119
+eyJoaXN0b3J5IjpbNjUzMjg5Njg0LC0xNTgwNzE3MTddfQ==
 -->
