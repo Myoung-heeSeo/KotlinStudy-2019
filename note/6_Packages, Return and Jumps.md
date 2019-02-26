@@ -12,7 +12,16 @@
 ```kotlin
 package foo.bar
 
+fun baz(){}
+
+class Goo(){}
+
+fun main(args: Array<String>) {
+	foo.bar.baz()
+	foo.bar.Goo()
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzUyMjYwNSwtMTkyNTk4NjYwMF19
+eyJoaXN0b3J5IjpbLTE2OTI5NDA1NzgsLTE5MjU5ODY2MDBdfQ
+==
 -->
