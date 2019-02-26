@@ -110,10 +110,17 @@ fun foo3() {
 - 직접 label을 사용하는 것 보다 편리
 - 암시적 레이블은 람다가 사용된 함수의 이름과 동일함
 ```kotlin
-fun foo4(
+fun foo4() {
+	var ints = listOf(0, 1, 2, 3)
+	ints.forEach{
+		if (it ==1) return
+		print(it)
+	}
+	print("End")
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMTQ2MjIxOCwyNTkwOTU2OTgsLTE2Mz
+eyJoaXN0b3J5IjpbLTc5NzY5NDI4MywyNTkwOTU2OTgsLTE2Mz
 k2NTY3NzgsLTEyNTE3NzIwMjMsLTE0Nzk5MzYwNywtMTkyNTk4
 NjYwMF19
 -->
