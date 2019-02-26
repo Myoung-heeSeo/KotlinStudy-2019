@@ -120,7 +120,6 @@ fun foo4() {
 }
 ```
 **레이블 return시 값을 반환하기**
-- return@label 1 형태로 사용
 - return + @label + 값
 ```kotlin
 fun foo(): List<String> {
@@ -129,9 +128,13 @@ fun foo(): List<String> {
 		if (it == 0) {
 			return@map "zero"// return at named label
 		}
+		"number $it" //expression returned from lambda
+	}
+	return result
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjMwMzIxODgsLTc5NzY5NDI4MywyNT
+eyJoaXN0b3J5IjpbLTEzOTI0MzMzMTUsLTc5NzY5NDI4MywyNT
 kwOTU2OTgsLTE2Mzk2NTY3NzgsLTEyNTE3NzIwMjMsLTE0Nzk5
 MzYwNywtMTkyNTk4NjYwMF19
 -->
