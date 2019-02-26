@@ -76,10 +76,15 @@ loop@ for (i in 1..10) {
 ```kotlin
 fun foo() {
 	var ints = listOf(0, 1, 2, 3)
-ints.forEach(fun(value: Int){
-
+	ints.forEach(fun(value: Int){
+		if(value == 1) return
+		print(value)
+	})
+	print("End")
+}
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjAwMDUxMDMsLTE2Mzk2NTY3NzgsLT
-EyNTE3NzIwMjMsLTE0Nzk5MzYwNywtMTkyNTk4NjYwMF19
+eyJoaXN0b3J5IjpbMjU5MDk1Njk4LC0xNjM5NjU2Nzc4LC0xMj
+UxNzcyMDIzLC0xNDc5OTM2MDcsLTE5MjU5ODY2MDBdfQ==
 -->
