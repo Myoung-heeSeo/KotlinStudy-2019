@@ -45,9 +45,23 @@ import bar.Bar as bBar
 - 식별자 + @ 형태로 사용(label@)
 ```kotlin
 loop@ for (i in 1..10) {
-pr
+	println("--- i: $i ---")
+
+	for (j in 1..10) {
+		pritnln("j: $j")
+		if (i + j > 12) {
+			break @loop
+		}
+	}
+}
+```
+```kotlin
+loop@ for (i in 1..10) {
+	println("--- i: $i ---")
+for (j in 1..10) {
+	if 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MjEyNzk2NSwtMTI1MTc3MjAyMywtMT
-Q3OTkzNjA3LC0xOTI1OTg2NjAwXX0=
+eyJoaXN0b3J5IjpbODg4OTQ0ODM4LC0xMjUxNzcyMDIzLC0xND
+c5OTM2MDcsLTE5MjU5ODY2MDBdfQ==
 -->
