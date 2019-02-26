@@ -58,10 +58,15 @@ loop@ for (i in 1..10) {
 ```kotlin
 loop@ for (i in 1..10) {
 	println("--- i: $i ---")
-for (j in 1..10) {
-	if (j < 2
+	for (j in 1..10) {
+		if (j < 2) {
+			continue@loop
+		}
+		println("j: $j")
+	}
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzk2NTY3NzgsLTEyNTE3NzIwMjMsLT
-E0Nzk5MzYwNywtMTkyNTk4NjYwMF19
+eyJoaXN0b3J5IjpbMTU3MDI2NzcwMCwtMTYzOTY1Njc3OCwtMT
+I1MTc3MjAyMywtMTQ3OTkzNjA3LC0xOTI1OTg2NjAwXX0=
 -->
