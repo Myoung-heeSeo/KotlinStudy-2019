@@ -62,10 +62,20 @@ var res = when (x) {
 	false -> "틀리다"
 }
 ```
-- d
-
+- 여러 조건들이 같은 방식으로 처리될 수 있는 경우, branch의 조건문에 콤마(,)를 사용하여 표기
+```kotlin
+when (x) {
+	0, 1 -> print("x == 0 or x == 1")
+	else -> print("otherwise")
+}
+```
+- Branch의 조건문에 함수나 식을 사용할 수 있음
+```kotlin
+when (x) {
+	parseInt(x) -
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQ4Njc5NjksODY5MjMwMjE2LC0xNT
-gwNzE3MTddfQ==
+eyJoaXN0b3J5IjpbLTM0MzgwNTM5OSw4NjkyMzAyMTYsLTE1OD
+A3MTcxN119
 -->
