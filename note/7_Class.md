@@ -82,8 +82,15 @@ class Person(val name: String) {
 - 클래스에 기본 생성자 or 보조 생성자를 선언하지 않으면, 생성된 기본 생성자가 만들어짐
 - 매개 변수가 없음
 - 가시성이 public
-- 만약 생성된 기본생성자를 public이 아닌 
+- 만약 생성된 기본생성자를 public이 아닌 접근지정자로 하고 싶다면, 접근지정자를 지정한 기본생성자를 선언해야 함
+```kotlin
+class DonCreateMe private constructor () {}
+```
+
+**인스턴스(객체) 생성**
+- 코틀린에는 new 키워드가 없음
+- 객체 생성 시 생성자를 일반 함수 처럼 호출하면 됨
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDA4NDEwMTMsLTg1MTI4NjY2MiwtMT
-IzMjM4MDgwMiw3OTIzMjY0OTRdfQ==
+eyJoaXN0b3J5IjpbMTkyODkzNzI3NSwtODUxMjg2NjYyLC0xMj
+MyMzgwODAyLDc5MjMyNjQ5NF19
 -->
