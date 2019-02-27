@@ -40,6 +40,14 @@ class Customer(name: String){
 	}
 }
 ```
+- 기본생성자의 파라미터는 프로퍼티 초기화 선언에도 사용 가능
+```kotlin
+class Customer(name: String) {
+	val customerKey = name.toUpperCase()
+}
+```
+- 프로퍼티 선언 및 초기화는 기본생성자에서 간결한 구문으로 사
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzIzODA4MDIsNzkyMzI2NDk0XX0=
+eyJoaXN0b3J5IjpbLTE1NjE2Mjc0MjksLTEyMzIzODA4MDIsNz
+kyMzI2NDk0XX0=
 -->
