@@ -72,9 +72,11 @@ class Person{
 	* 간접적: 다른 보조 생성자에 위임
 ```kotlin
 class Person(val name: String) {
-	constructor(name: String, parent: Person)
+	constructor(name: String, parent: Person) : this(name) {}
+	constructor() : this("Myounghee Seo", Person()) {}
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5MDAzOSwtODUxMjg2NjYyLC0xMjMyMz
-gwODAyLDc5MjMyNjQ5NF19
+eyJoaXN0b3J5IjpbLTMzNjA0NjIxMiwtODUxMjg2NjYyLC0xMj
+MyMzgwODAyLDc5MjMyNjQ5NF19
 -->
