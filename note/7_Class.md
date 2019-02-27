@@ -46,8 +46,11 @@ class Customer(name: String) {
 	val customerKey = name.toUpperCase()
 }
 ```
-- 프로퍼티 선언 및 초기화는 기본생성자에서 간결한 구문으로 사
+- 프로퍼티 선언 및 초기화는 기본생성자에서 간결한 구문으로 사용 가능
+```kotlin
+class 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjE2Mjc0MjksLTEyMzIzODA4MDIsNz
-kyMzI2NDk0XX0=
+eyJoaXN0b3J5IjpbOTc2ODkxNDE4LC0xMjMyMzgwODAyLDc5Mj
+MyNjQ5NF19
 -->
