@@ -51,8 +51,8 @@ class Customer(name: String) {
 class Person(val firstName: String, val lastName: String){
 }
 ```
-
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTI3Mzk4NDYsLTEyMzIzODA4MDIsNz
-kyMzI2NDk0XX0=
+eyJoaXN0b3J5IjpbLTg1MTI4NjY2MiwtMTIzMjM4MDgwMiw3OT
+IzMjY0OTRdfQ==
 -->
