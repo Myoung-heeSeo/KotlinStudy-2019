@@ -19,7 +19,13 @@ class Invoice
 
 **기본생성자**
 - 클래스 별로 1개만 가능
-- ㅋ헤더의 일부
+- 클래스 헤더의 일부
+- 클래스 이름 뒤에 작성
+```kotlin
+class Person constructor(firstName: String){
+}
+```
+- 어노테이션이나 접근지정자가 없을 때는, 기본생성자의 constructor 키워드를 생략 가능
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MzM1Njc4MV19
+eyJoaXN0b3J5IjpbNzkyMzI2NDk0XX0=
 -->
