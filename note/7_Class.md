@@ -27,8 +27,11 @@ class Person constructor(firstName: String){
 ```
 - 어노테이션이나 접근지정자가 없을 때는, 기본생성자의 constructor 키워드를 생략 가능
 ```kotlin
-
+class Person(firstName: String) {
+}
 ```
+- 기본생성자는 코드를 가질 수 없다(바디가 겹치기 때문)
+	* 초기화는 초기화(in
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjMyNzY3NTEsNzkyMzI2NDk0XX0=
+eyJoaXN0b3J5IjpbLTkzMTUxNTI3LDc5MjMyNjQ5NF19
 -->
