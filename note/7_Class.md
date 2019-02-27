@@ -31,7 +31,15 @@ class Person(firstName: String) {
 }
 ```
 - 기본생성자는 코드를 가질 수 없다(바디가 겹치기 때문)
-	* 초기화는 초기화(in
+	* 초기화는 초기화(init 키워드) 블록 안에서 작성해야함
+	* 기본 생성자의 파라미터는 init블록 안에서 사용 가능
+```kotlin
+class Customer(name: String){
+	init {
+		logger.info("Customer initialized with value ${name}")
+	}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMTUxNTI3LDc5MjMyNjQ5NF19
+eyJoaXN0b3J5IjpbLTEyMzIzODA4MDIsNzkyMzI2NDk0XX0=
 -->
