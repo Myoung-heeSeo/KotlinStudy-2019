@@ -17,7 +17,7 @@ class Invoice(data: Int){
 class Invoice
 ```
 
-**기본생성자**
+**Default Constructor(기본생성자)**
 - 클래스 별로 1개만 가능
 - 클래스 헤더의 일부
 - 클래스 이름 뒤에 작성
@@ -56,10 +56,15 @@ class Person(val firstName: String, val lastName: String){
 class Customer public @Inject constructor(name: String) {}
 ```
  
- **보조생성자**
+ **Secondary Constructor(보조생성자)**
  - 클래스 별로 여러개를 가질 수 있음
- - constructor 키워드로 선언(바딩
+ - constructor 키워드로 선언(바디에 선언)
+ ```kotlin
+class Person{
+	co
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTEwNDcxNywtODUxMjg2NjYyLC0xMj
+eyJoaXN0b3J5IjpbMTUyNTkxMTI2OCwtODUxMjg2NjYyLC0xMj
 MyMzgwODAyLDc5MjMyNjQ5NF19
 -->
