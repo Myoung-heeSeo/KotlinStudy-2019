@@ -70,7 +70,11 @@ class Person{
 - this 키워드 사용
 	* 직접적: 기본 생성자에 위임
 	* 간접적: 다른 보조 생성자에 위임
+```kotlin
+class Person(val name: String) {
+	constructor(name: String, parent: Person)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzIwNzA5MiwtODUxMjg2NjYyLC0xMj
-MyMzgwODAyLDc5MjMyNjQ5NF19
+eyJoaXN0b3J5IjpbNjI5MDAzOSwtODUxMjg2NjYyLC0xMjMyMz
+gwODAyLDc5MjMyNjQ5NF19
 -->
