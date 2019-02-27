@@ -72,11 +72,14 @@ class Person{
 	* 간접적: 다른 보조 생성자에 위임
 ```kotlin
 class Person(val name: String) {
-	constructor(name: String, parent: Person) : this(name) {}
-	constructor() : this("Myounghee Seo", Person()) {}	//보조생성자를 this를 통해 호출하여 갑
+	//기본 생성자에 직접 위임
+	constructor(name: String, parent: Person) : this(name) {} 
+	//보조생성자를 this를 통해 호출하여 간접적으로 기본 생성자 위임
+	constructor() : this("Myounghee Seo", Person()) {}	
 }
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODE2ODc2OCwtODUxMjg2NjYyLC0xMj
-MyMzgwODAyLDc5MjMyNjQ5NF19
+eyJoaXN0b3J5IjpbMTM1NjY3Mjc5LC04NTEyODY2NjIsLTEyMz
+IzODA4MDIsNzkyMzI2NDk0XX0=
 -->
