@@ -61,10 +61,16 @@ class Customer public @Inject constructor(name: String) {}
  - constructor 키워드로 선언(바디에 선언)
  ```kotlin
 class Person{
-	co
+	constructor(parent: Person) {
+		parent.children.add(this)
+	}
 }
 ```
+- 클래스가 기본 생성자를 가지고 있다면, 각각의 보조 생성자들은 기본 생성자를 직접/간접적으로 위임해 주어야 함
+- this 키워드 사용
+	* 직접적: 기본 생성자에 위임
+	* 간접적: 다른 보조 생성자에 위임
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNTkxMTI2OCwtODUxMjg2NjYyLC0xMj
+eyJoaXN0b3J5IjpbLTYwNzIwNzA5MiwtODUxMjg2NjYyLC0xMj
 MyMzgwODAyLDc5MjMyNjQ5NF19
 -->
