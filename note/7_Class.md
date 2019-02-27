@@ -51,8 +51,15 @@ class Customer(name: String) {
 class Person(val firstName: String, val lastName: String){
 }
 ```
+- 기본생성자에 어노테이션 접근지정자 등이 있는 경우 constuctor 키워드 필요(생략 x)
+```kotlin
+class Customer public @Inject constructor(name: String) {}
+```
  
+ **보조생성자**
+ - 클래스 별로 여러개를 가질 수 있음
+ - constructor 키워드로 선언(바딩
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTI4NjY2MiwtMTIzMjM4MDgwMiw3OT
-IzMjY0OTRdfQ==
+eyJoaXN0b3J5IjpbLTE4MTEwNDcxNywtODUxMjg2NjYyLC0xMj
+MyMzgwODAyLDc5MjMyNjQ5NF19
 -->
