@@ -73,10 +73,10 @@ class Person{
 ```kotlin
 class Person(val name: String) {
 	constructor(name: String, parent: Person) : this(name) {}
-	constructor() : this("Myounghee Seo", Person()) {}
+	constructor() : this("Myounghee Seo", Person()) {}	//보조생성자를 this를 통해 호출하여 갑
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNjA0NjIxMiwtODUxMjg2NjYyLC0xMj
+eyJoaXN0b3J5IjpbLTMwODE2ODc2OCwtODUxMjg2NjYyLC0xMj
 MyMzgwODAyLDc5MjMyNjQ5NF19
 -->
