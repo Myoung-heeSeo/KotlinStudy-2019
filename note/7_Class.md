@@ -17,7 +17,7 @@ class Invoice(data: Int){
 class Invoice
 ```
 
-**Default Constructor(기본생성자)**
+**Primary Constructor(기본생성자)**
 - 클래스 별로 1개만 가능
 - 클래스 헤더의 일부
 - 클래스 이름 뒤에 작성
@@ -78,8 +78,8 @@ class Person(val name: String) {
 	constructor() : this("Myounghee Seo", Person()) {}	
 }
 ```
-
+**Generated Primary Construct생성된 기본생성자
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NjY3Mjc5LC04NTEyODY2NjIsLTEyMz
+eyJoaXN0b3J5IjpbMjI2MDkyNjA0LC04NTEyODY2NjIsLTEyMz
 IzODA4MDIsNzkyMzI2NDk0XX0=
 -->
