@@ -89,8 +89,13 @@ class DonCreateMe private constructor () {}
 
 **인스턴스(객체) 생성**
 - 코틀린에는 new 키워드가 없음
-- 객체 생성 시 생성자를 일반 함수 처럼 호출하면 됨
+- 객체 생성 시 생성자를 일반 함수 처럼 호출
+```kotlin
+val invoice = invoice()
+val customer = Customer("Joe Smith")
+```
+**클래스 바디에 올 수 있는
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODkzNzI3NSwtODUxMjg2NjYyLC0xMj
-MyMzgwODAyLDc5MjMyNjQ5NF19
+eyJoaXN0b3J5IjpbLTE2MTcwODAwNzksLTg1MTI4NjY2MiwtMT
+IzMjM4MDgwMiw3OTIzMjY0OTRdfQ==
 -->
