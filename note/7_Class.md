@@ -94,8 +94,13 @@ class DonCreateMe private constructor () {}
 val invoice = invoice()
 val customer = Customer("Joe Smith")
 ```
-**클래스 바디에 올 수 있는
+**클래스 바디에 올 수 있는 것들**
+- Constructors and initializer blocks
+- Function
+- Properties
+- Nested and Inner Classes
+- Object Declarations
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTcwODAwNzksLTg1MTI4NjY2MiwtMT
+eyJoaXN0b3J5IjpbLTEyNDA0MzI5NjAsLTg1MTI4NjY2MiwtMT
 IzMjM4MDgwMiw3OTIzMjY0OTRdfQ==
 -->
