@@ -48,9 +48,11 @@ class Customer(name: String) {
 ```
 - 프로퍼티 선언 및 초기화는 기본생성자에서 간결한 구문으로 사용 가능
 ```kotlin
-class 
+class Person(val firstName: String, val lastName: String){
+}
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2ODkxNDE4LC0xMjMyMzgwODAyLDc5Mj
-MyNjQ5NF19
+eyJoaXN0b3J5IjpbLTEzNTI3Mzk4NDYsLTEyMzIzODA4MDIsNz
+kyMzI2NDk0XX0=
 -->
