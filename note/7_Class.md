@@ -78,8 +78,12 @@ class Person(val name: String) {
 	constructor() : this("Myounghee Seo", Person()) {}	
 }
 ```
-**Generated Primary Construct생성된 기본생성자
+**Generated Primary Constructor(생성된 기본생성자)**
+- 클래스에 기본 생성자 or 보조 생성자를 선언하지 않으면, 생성된 기본 생성자가 만들어짐
+- 매개 변수가 없음
+- 가시성이 public
+- 만약 생성된 기본생성자를 public이 아닌 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2MDkyNjA0LC04NTEyODY2NjIsLTEyMz
-IzODA4MDIsNzkyMzI2NDk0XX0=
+eyJoaXN0b3J5IjpbLTExMDA4NDEwMTMsLTg1MTI4NjY2MiwtMT
+IzMjM4MDgwMiw3OTIzMjY0OTRdfQ==
 -->
