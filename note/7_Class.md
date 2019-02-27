@@ -26,6 +26,9 @@ class Person constructor(firstName: String){
 }
 ```
 - 어노테이션이나 접근지정자가 없을 때는, 기본생성자의 constructor 키워드를 생략 가능
+```kotlin
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkyMzI2NDk0XX0=
+eyJoaXN0b3J5IjpbLTEzNjMyNzY3NTEsNzkyMzI2NDk0XX0=
 -->
