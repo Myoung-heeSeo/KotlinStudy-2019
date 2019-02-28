@@ -129,7 +129,7 @@ fun describe(obj: Any): String =
 		else -> "Unknown"
 ```
 **Ranges**
-- In 연산자를 이요해 숫자 범위 체크 가능
+- In 연산자를 이용해 숫자 범위 체크 가능
 ```kotlin
 val x = 3
 if (x in 1..10) {
@@ -173,5 +173,5 @@ fruits
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDY1MTg4ODMsLTM3MTA4Nzg0OV19
+eyJoaXN0b3J5IjpbMjk4NTA4MDE4LC0zNzEwODc4NDldfQ==
 -->
