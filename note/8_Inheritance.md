@@ -40,10 +40,11 @@ class MyView : View {
 	constructor(ctx: Int, attrs: Int) : super(ctx, attrs)
 }
 ``` 
-- open 어노테이션은 java의 final과 반대임
-- open class는 다른 클래스가 상속할 수 있음
+- open 어노테이션은 java의 final과 반대
+- open class란 다른 클래스가 상속가능함을 암시
 - 기본적으로 코틀린의 모든 class는 final
+**Method Overriding(메소드 오버라이딩(
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4MDAzOTEwLC0zNTg1MzM5NDYsOTg5Mz
-I1MDIwLDIwNTEzOTAzMzMsLTE2NTc1MTg1MjFdfQ==
+eyJoaXN0b3J5IjpbLTY1MjQ1ODcxNiwtMzU4NTMzOTQ2LDk4OT
+MyNTAyMCwyMDUxMzkwMzMzLC0xNjU3NTE4NTIxXX0=
 -->
