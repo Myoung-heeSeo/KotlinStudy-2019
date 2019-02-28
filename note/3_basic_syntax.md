@@ -160,7 +160,7 @@ when {
 ```
 - lambda expression을 이용하여 컬렉션에 filter, map 등의 연산 가능
 ```kotlin
-val fruits = listOb("banana", "avocado", "apple", "kiwi")
+val fruits = listOf("banana", "avocado", "apple", "kiwi")
 fruits
 	.filter { it.startsWith("a") }
 	.sortedBy { it }
@@ -173,5 +173,6 @@ fruits
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk4NTA4MDE4LC0zNzEwODc4NDldfQ==
+eyJoaXN0b3J5IjpbLTE0MzczNDY3MDYsMjk4NTA4MDE4LC0zNz
+EwODc4NDldfQ==
 -->
