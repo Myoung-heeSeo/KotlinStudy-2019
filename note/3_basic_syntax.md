@@ -85,6 +85,7 @@ fun maxOf(a: Int, b: Int) = if (a > b) a else b
 ```kotlin
 fun parseInt(str: String): Int? {
 	// 정수가 아닌 경우 null을 return
+	//...
 }
 ```
 - nullable type의 변수 접근 시, null 체크 필수
@@ -172,5 +173,5 @@ fruits
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MTA4Nzg0OV19
+eyJoaXN0b3J5IjpbLTEzNDY1MTg4ODMsLTM3MTA4Nzg0OV19
 -->
