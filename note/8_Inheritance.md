@@ -12,7 +12,14 @@ class Example1 //암시적인 Any 상속
 class Example2 : Any() //명시적인 Any 상속
 ```
 
-- Any
+- Any는 java.lang.Object와는 다른 클래스임
+	* equals(), hashCode(), toString()만 있음
+
+```kotlin
+package kotlin
+public o
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNTA0NjEwMCwtMTY1NzUxODUyMV19
+eyJoaXN0b3J5IjpbLTE3MjQxNjE4MTAsLTE2NTc1MTg1MjFdfQ
+==
 -->
