@@ -30,8 +30,9 @@ open class Base(p: Int)
 class Derived(p: Int) : Base(p)
 ```
 - 파생클래스에 기본생성자가 있으면, 파생클래스의 기본생성자에서 상위타입의 생성자를 호출해서 초기화할 수 있음
-
+- 파생클래스에 기본생성자가 없으면, 각각의 보조생성자에서 사위타입을 super키워드를 이용하여 초기화해주어야 함
+- or 다른 생성자에게 상위타입을 초기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyOTcwNjg1OSwyMDUxMzkwMzMzLC0xNj
-U3NTE4NTIxXX0=
+eyJoaXN0b3J5IjpbLTE3MDkwMDcyNzIsMjA1MTM5MDMzMywtMT
+Y1NzUxODUyMV19
 -->
