@@ -82,10 +82,19 @@ open class A{
 ```kotlin
 interface B{
 	fun f() { print("B") }
-	fun b() 
+	fun b() { print("b")}
+}
+```
+```kotlin
+class C() : A(), B{
+	override fun f() {
+		super<A>.f() // call to A.f()
+		super<B>.f() // call to B.f()
+	}
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzIyNDEwMSwtMTAyMjU2Nzc1LDE4ND
+eyJoaXN0b3J5IjpbLTI4MzQyMTg1NSwtMTAyMjU2Nzc1LDE4ND
 Y5NTEwNTcsLTM1ODUzMzk0Niw5ODkzMjUwMjAsMjA1MTM5MDMz
 MywtMTY1NzUxODUyMV19
 -->
