@@ -70,10 +70,11 @@ class Bar1: Foo() {
 	override val x: Int = ...
 }
 ```
-
-
+**오버라이딩 규칙**
+- 같은 멤버에 대한 중복된 구현을 상속받은 경우, 상속받은 클래스는 해당 멤버를 오버라이딩하고 자체 구현을 제공해야 함
+- "super + 클래스명"을 통해 상위 클래스 호출 가능
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTcwNjIxMTAsMTg0Njk1MTA1NywtMz
-U4NTMzOTQ2LDk4OTMyNTAyMCwyMDUxMzkwMzMzLC0xNjU3NTE4
-NTIxXX0=
+eyJoaXN0b3J5IjpbLTEwMjI1Njc3NSwxODQ2OTUxMDU3LC0zNT
+g1MzM5NDYsOTg5MzI1MDIwLDIwNTEzOTAzMzMsLTE2NTc1MTg1
+MjFdfQ==
 -->
