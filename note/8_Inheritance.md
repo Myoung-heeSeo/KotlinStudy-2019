@@ -95,14 +95,18 @@ class C() : A(), B{
 ```
 **Abstract Class(추상 클래스)**
 - abstract 멤버는 구현이 없음
-- abstract 클래스나 멤버는 open이 필요 없음(당연히 open
+- abstract 클래스나 멤버는 open이 필요 없음(당연히 open이 기본적으로 적용된 클래스이기 때문)
 ```kotlin
 abstract class AbClass{
 	abstract fun f()
 }
+
+class MyClass(): AbClass(){
+	override fun f() {//구현}
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzNzk2MiwtMjgzNDIxODU1LC0xMDIyNT
-Y3NzUsMTg0Njk1MTA1NywtMzU4NTMzOTQ2LDk4OTMyNTAyMCwy
-MDUxMzkwMzMzLC0xNjU3NTE4NTIxXX0=
+eyJoaXN0b3J5IjpbLTE4MzMwNzk1MDksLTI4MzQyMTg1NSwtMT
+AyMjU2Nzc1LDE4NDY5NTEwNTcsLTM1ODUzMzk0Niw5ODkzMjUw
+MjAsMjA1MTM5MDMzMywtMTY1NzUxODUyMV19
 -->
