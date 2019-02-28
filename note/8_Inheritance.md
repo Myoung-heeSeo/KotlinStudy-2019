@@ -93,8 +93,16 @@ class C() : A(), B{
 	}
 }
 ```
+**Abstract Class(추상 클래스)**
+- abstract 멤버는 구현이 없음
+- abstract 클래스나 멤버는 open이 필요 없음(당연히 open
+```kotlin
+abstract class AbClass{
+	abstract fun f()
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MzQyMTg1NSwtMTAyMjU2Nzc1LDE4ND
-Y5NTEwNTcsLTM1ODUzMzk0Niw5ODkzMjUwMjAsMjA1MTM5MDMz
-MywtMTY1NzUxODUyMV19
+eyJoaXN0b3J5IjpbODYzNzk2MiwtMjgzNDIxODU1LC0xMDIyNT
+Y3NzUsMTg0Njk1MTA1NywtMzU4NTMzOTQ2LDk4OTMyNTAyMCwy
+MDUxMzkwMzMzLC0xNjU3NTE4NTIxXX0=
 -->
