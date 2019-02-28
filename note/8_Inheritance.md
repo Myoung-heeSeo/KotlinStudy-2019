@@ -43,8 +43,17 @@ class MyView : View {
 - open 어노테이션은 java의 final과 반대
 - open class란 다른 클래스가 상속가능함을 암시
 - 기본적으로 코틀린의 모든 class는 final
-**Method Overriding(메소드 오버라이딩(
+**Method Overriding(메소드 오버라이딩)**
+- 오버라이딩 될 메소드(슈퍼)
+	* open 어노테이션 요구됨
+- 오버라이딩 된 메소드(하위)
+	* override 어노테이션 요구됨
+```kotlin
+open class Base {
+	open fun v() {}
+	fun
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MjQ1ODcxNiwtMzU4NTMzOTQ2LDk4OT
-MyNTAyMCwyMDUxMzkwMzMzLC0xNjU3NTE4NTIxXX0=
+eyJoaXN0b3J5IjpbODg5OTE1NjYzLC0zNTg1MzM5NDYsOTg5Mz
+I1MDIwLDIwNTEzOTAzMzMsLTE2NTc1MTg1MjFdfQ==
 -->
