@@ -51,9 +51,14 @@ class MyView : View {
 ```kotlin
 open class Base {
 	open fun v() {}
-	fun
+	fun nv() {}
+}
+
+class Derived() : Base() {
+	override fun v() {}
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5OTE1NjYzLC0zNTg1MzM5NDYsOTg5Mz
-I1MDIwLDIwNTEzOTAzMzMsLTE2NTc1MTg1MjFdfQ==
+eyJoaXN0b3J5IjpbMTg0Njk1MTA1NywtMzU4NTMzOTQ2LDk4OT
+MyNTAyMCwyMDUxMzkwMzMzLC0xNjU3NTE4NTIxXX0=
 -->
