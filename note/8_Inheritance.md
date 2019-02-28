@@ -58,7 +58,22 @@ class Derived() : Base() {
 	override fun v() {}
 }
 ```
+
+**Property Overriding(프로퍼티 오버라이딩)**
+- 메소드 오버라이딩과 유사
+```kotlin
+open class Foo{
+	open val x: Int get{}
+}
+
+class Bar1: Foo() {
+	override val x: Int = ...
+}
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0Njk1MTA1NywtMzU4NTMzOTQ2LDk4OT
-MyNTAyMCwyMDUxMzkwMzMzLC0xNjU3NTE4NTIxXX0=
+eyJoaXN0b3J5IjpbLTE1OTcwNjIxMTAsMTg0Njk1MTA1NywtMz
+U4NTMzOTQ2LDk4OTMyNTAyMCwyMDUxMzkwMzMzLC0xNjU3NTE4
+NTIxXX0=
 -->
