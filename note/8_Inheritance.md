@@ -39,8 +39,8 @@ class MyView : View {
 	constructor(ctx: Int) : this()
 	constructor(ctx: Int, attrs: Int) : super(ctx, attrs)
 }
-```
+``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4ODI5MTM3NCw5ODkzMjUwMjAsMjA1MT
+eyJoaXN0b3J5IjpbLTM1ODUzMzk0Niw5ODkzMjUwMjAsMjA1MT
 M5MDMzMywtMTY1NzUxODUyMV19
 -->
