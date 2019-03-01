@@ -9,8 +9,24 @@
 	* var : mutable / val : read-only
 ```kotlin
 class Address{
-	var name: S
+	var name: String = "Kotlin"
+	val city: String = "Seoul"
+}
+```
+- 프로퍼티 사용은 자바의 필드를 사용하듯이 하면 됨
+```kotlin
+fun copyAddress(address: Address): Address{
+	val result = Address()
+	result.name = address.name
+	// ...
+	return result
+}
+```
+**프로퍼티 문법**
+- 전체 문법
+```kotlin
+var <propertyName>[:
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzNjIzNDA5XX0=
+eyJoaXN0b3J5IjpbODY2Mjk0NjNdfQ==
 -->
