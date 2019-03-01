@@ -25,8 +25,8 @@ fun copyAddress(address: Address): Address{
 **프로퍼티 문법**
 - 전체 문법
 ```kotlin
-var <propertyName>[:
+var <propertyName>[: <
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY2Mjk0NjNdfQ==
+eyJoaXN0b3J5IjpbOTYwMjUyNTk1XX0=
 -->
