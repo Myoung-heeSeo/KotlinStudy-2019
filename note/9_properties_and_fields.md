@@ -35,7 +35,14 @@ var <propertyName>[: <PropertyType>][=<property_initializer>]
 	* property_initializer
 	* getter
 	* setter
-
+**프로퍼티 예제**
+- 두코드는 거의 같음
+```kotlin
+class Address{
+	var name="Kotlin"
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5Mjg2NzI0LDk2MDI1MjU5NV19
+eyJoaXN0b3J5IjpbNTEzNzE5NjkzLDkyOTI4NjcyNCw5NjAyNT
+I1OTVdfQ==
 -->
