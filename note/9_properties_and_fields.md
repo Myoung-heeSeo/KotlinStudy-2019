@@ -42,7 +42,19 @@ class Address{
 	var name="Kotlin"
 }
 ```
+```kotlin
+class Address2 {
+	var name: String = "Kotlin"
+		get() {
+			return field
+		}
+		set(value) {
+			field = value
+		}
+}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEzNzE5NjkzLDkyOTI4NjcyNCw5NjAyNT
-I1OTVdfQ==
+eyJoaXN0b3J5IjpbLTczODE3MDc1Miw5MjkyODY3MjQsOTYwMj
+UyNTk1XX0=
 -->
