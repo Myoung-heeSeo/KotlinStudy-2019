@@ -9,7 +9,7 @@
 	* var : mutable / val : read-only
 ```kotlin
 class Address{
-	var name: String = "Kotlin"
+	var name: String = "Kotlin"	//property
 	val city: String = "Seoul"
 }
 ```
@@ -32,7 +32,10 @@ var <propertyName>[: <PropertyType>][=<property_initializer>]
 - 옵션 (생략가능)
 	* PropertyType
 		- property_initalizer에서 타입이 추론 가능한 경우 생략 가능
-	* property
+	* property_initializer
+	* getter
+	* setter
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMTQ0ODU0LDk2MDI1MjU5NV19
+eyJoaXN0b3J5IjpbOTI5Mjg2NzI0LDk2MDI1MjU5NV19
 -->
