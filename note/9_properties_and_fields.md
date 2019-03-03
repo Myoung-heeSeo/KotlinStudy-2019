@@ -95,8 +95,16 @@ var stringRepresentation: String
 	}
 ```
 **타입생략**
-- 코틀린 1.1부터
+- 코틀린 1.1부터는 getter를 통해 타입을 추론할 수 있는 경우 프로퍼티 타입 생략 가능
+```kotlin
+val isEmpty: Boolean
+	get() = this.size == 0 //has type Boolean
+```
+```kotlin
+val isEmpty
+	get() = this.size == 0 //has type Boolean
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MTQzMTQ3NCwtNzM4MTcwNzUyLDkyOT
+eyJoaXN0b3J5IjpbMTQ4MjE4MzkzNiwtNzM4MTcwNzUyLDkyOT
 I4NjcyNCw5NjAyNTI1OTVdfQ==
 -->
