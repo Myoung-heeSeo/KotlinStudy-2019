@@ -45,6 +45,7 @@ class Address{
 ```kotlin
 class Address2 {
 	var name: String = "Kotlin"
+	//get과 set 재정의
 		get() {
 			return field
 		}
@@ -55,6 +56,6 @@ class Address2 {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODE3MDc1Miw5MjkyODY3MjQsOTYwMj
-UyNTk1XX0=
+eyJoaXN0b3J5IjpbLTEyMjQ4NDM5MDUsLTczODE3MDc1Miw5Mj
+kyODY3MjQsOTYwMjUyNTk1XX0=
 -->
