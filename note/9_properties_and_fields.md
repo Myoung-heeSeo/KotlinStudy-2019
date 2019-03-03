@@ -54,8 +54,14 @@ class Address2 {
 		}
 }
 ```
-
+**var (mutable) 프로퍼티**
+```kotlin
+class Address {
+	//default getter와 setter
+	//타입은 Int
+	var i
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjQ4NDM5MDUsLTczODE3MDc1Miw5Mj
-kyODY3MjQsOTYwMjUyNTk1XX0=
+eyJoaXN0b3J5IjpbMjAyNjQwMDk2LC03MzgxNzA3NTIsOTI5Mj
+g2NzI0LDk2MDI1MjU5NV19
 -->
