@@ -66,8 +66,17 @@ class Address {
 	var allByDefault: Int?
 ```
 **val(read-only) 프로퍼티**
-- var 대신 val 키우
+- setter가 없음
+```kotlin
+class Address{
+	//default getter
+	//타입은 Int
+	val initialized = 1
+
+	//error: default getter를 사용한 경우
+	//명시적인 초기화가 필요하므로 에러 발생
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTMwNzI3NTksLTczODE3MDc1Miw5Mj
-kyODY3MjQsOTYwMjUyNTk1XX0=
+eyJoaXN0b3J5IjpbOTcwODk0ODM2LC03MzgxNzA3NTIsOTI5Mj
+g2NzI0LDk2MDI1MjU5NV19
 -->
