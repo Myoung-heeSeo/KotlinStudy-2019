@@ -75,8 +75,19 @@ class Address{
 
 	//error: default getter를 사용한 경우
 	//명시적인 초기화가 필요하므로 에러 발생
+	val allByDefault: Int?
 ```
+**Custom accessors(getter, setter)**
+- getter와 setter를 재정의하는 것
+- 프로퍼티 선언 내부에 일반 함수처럼 선언
+- getter
+```kotlin
+val isEmpty: Boolean
+	get() = this.size == 0
+```
+- setter
+	* 관습적으로 setter
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcwODk0ODM2LC03MzgxNzA3NTIsOTI5Mj
-g2NzI0LDk2MDI1MjU5NV19
+eyJoaXN0b3J5IjpbLTE5NDE5NjIzMTEsLTczODE3MDc1Miw5Mj
+kyODY3MjQsOTYwMjUyNTk1XX0=
 -->
