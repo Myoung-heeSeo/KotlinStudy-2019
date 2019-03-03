@@ -86,8 +86,17 @@ val isEmpty: Boolean
 	get() = this.size == 0
 ```
 - setter
-	* 관습적으로 setter
+	* 관습적으로 setter의 파라미터 이름은 value임(변경 가능)
+```kotlin
+var stringRepresentation: String
+	get() = this.toString()
+	set(value) {
+		setDataFromString(value)
+	}
+```
+**타입생략**
+- 코틀린 1.1부터
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDE5NjIzMTEsLTczODE3MDc1Miw5Mj
-kyODY3MjQsOTYwMjUyNTk1XX0=
+eyJoaXN0b3J5IjpbLTM0MTQzMTQ3NCwtNzM4MTcwNzUyLDkyOT
+I4NjcyNCw5NjAyNTI1OTVdfQ==
 -->
