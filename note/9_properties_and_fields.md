@@ -104,7 +104,8 @@ val isEmpty: Boolean
 val isEmpty
 	get() = this.size == 0 //has type Boolean
 ```
+15: 05~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MjE4MzkzNiwtNzM4MTcwNzUyLDkyOT
+eyJoaXN0b3J5IjpbMTU1ODc4MDA4NywtNzM4MTcwNzUyLDkyOT
 I4NjcyNCw5NjAyNTI1OTVdfQ==
 -->
