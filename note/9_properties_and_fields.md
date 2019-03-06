@@ -111,10 +111,18 @@ val isEmpty	//v_1.1~
 ```kotlin
 var setterVisibility: String = "abc"
 	private set
-var setterWithAnn
+var setterWithAnnotation: Any? = null
+	@inject set //annotate the setter with Inject
+```
+- Body를 작성해 주어도 됨
+```kotlin
+var setterVisibility: String = "abc"
+	private set(value) {
+		field = value
+	}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3ODc3NTUwLDE5OTExMTIzMzYsMTU1OD
+eyJoaXN0b3J5IjpbMTcxNjY3MzUyLDE5OTExMTIzMzYsMTU1OD
 c4MDA4NywtNzM4MTcwNzUyLDkyOTI4NjcyNCw5NjAyNTI1OTVd
 fQ==
 -->
