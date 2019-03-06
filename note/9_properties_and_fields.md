@@ -135,11 +135,19 @@ var counter = 0
 	}
 ```
 
-**Backing Fields 생성 조거ㄴ**
+**Backing Fields 생성 조건**
 - accessor중 1개라도 기본 구현을 사용하는 경우
-- custom accessor에서 field
+- custom accessor에서 field 식별자를 참조하는 경우
+```kotlin
+//the initializer value is written directly to the backing field
+var counter = 0
+	set(value) {
+		if(value > =) field = value
+	}
+```
+- Backing field를 생성하지 않는 경우
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzkyOTQ4MCwxNzE2NjczNTIsMTk5MT
+eyJoaXN0b3J5IjpbMTg1NDg3NTIzNiwxNzE2NjczNTIsMTk5MT
 ExMjMzNiwxNTU4NzgwMDg3LC03MzgxNzA3NTIsOTI5Mjg2NzI0
 LDk2MDI1MjU5NV19
 -->
