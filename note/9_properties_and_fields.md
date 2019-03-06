@@ -150,9 +150,13 @@ var counter = 0
 val isEmpty: Boolean
 	get() = this.size == 0
 ```
-**B
+**Backing Properties**
+- "implicit backing field" 방식이 맞지 않는 경우에는 "backing property"를 이용할 수도 있다.
+```kotlin
+private var
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1MTQ0MzQ2LC02Njc2NDQ5MzYsMTcxNj
-Y3MzUyLDE5OTExMTIzMzYsMTU1ODc4MDA4NywtNzM4MTcwNzUy
-LDkyOTI4NjcyNCw5NjAyNTI1OTVdfQ==
+eyJoaXN0b3J5IjpbLTE4MzI2ODI4NzIsLTY2NzY0NDkzNiwxNz
+E2NjczNTIsMTk5MTExMjMzNiwxNTU4NzgwMDg3LC03MzgxNzA3
+NTIsOTI5Mjg2NzI0LDk2MDI1MjU5NV19
 -->
