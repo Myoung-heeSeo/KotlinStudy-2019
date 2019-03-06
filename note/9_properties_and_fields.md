@@ -122,9 +122,15 @@ var setterVisibility: String = "abc"
 	}
 ```
 
-
+**Backing Fields**
+- 코틀린 클래스는 field를 가질 수 없음
+- 'field'라는 식별자를 통해 접근할 수 있는, automatic backing field를 제공함
+- field는 프로퍼티의 accessor에서만 사용가능 함
+```kotlin
+//the i
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc2MTIyNDg0LDE3MTY2NzM1MiwxOTkxMT
-EyMzM2LDE1NTg3ODAwODcsLTczODE3MDc1Miw5MjkyODY3MjQs
-OTYwMjUyNTk1XX0=
+eyJoaXN0b3J5IjpbLTE0MDcwMjY0NzksMTcxNjY3MzUyLDE5OT
+ExMTIzMzYsMTU1ODc4MDA4NywtNzM4MTcwNzUyLDkyOTI4Njcy
+NCw5NjAyNTI1OTVdfQ==
 -->
