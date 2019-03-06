@@ -101,11 +101,13 @@ val isEmpty: Boolean
 	get() = this.size == 0 //has type Boolean
 ```
 ```kotlin
-val isEmpty
+val isEmpty	//v_1.1~
 	get() = this.size == 0 //has type Boolean
 ```
-15: 05~
+
+**프로퍼티**
+- accessor에 가시성 변경이 필요하거나 어노테이션이 필요한 경우
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1ODc4MDA4NywtNzM4MTcwNzUyLDkyOT
-I4NjcyNCw5NjAyNTI1OTVdfQ==
+eyJoaXN0b3J5IjpbMTk5MTExMjMzNiwxNTU4NzgwMDg3LC03Mz
+gxNzA3NTIsOTI5Mjg2NzI0LDk2MDI1MjU5NV19
 -->
