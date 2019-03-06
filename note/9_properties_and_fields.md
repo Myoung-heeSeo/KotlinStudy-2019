@@ -150,9 +150,9 @@ var counter = 0
 val isEmpty: Boolean
 	get() = this.size == 0
 ```
-
+**B
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NzY0NDkzNiwxNzE2NjczNTIsMTk5MT
-ExMjMzNiwxNTU4NzgwMDg3LC03MzgxNzA3NTIsOTI5Mjg2NzI0
-LDk2MDI1MjU5NV19
+eyJoaXN0b3J5IjpbOTY1MTQ0MzQ2LC02Njc2NDQ5MzYsMTcxNj
+Y3MzUyLDE5OTExMTIzMzYsMTU1ODc4MDA4NywtNzM4MTcwNzUy
+LDkyOTI4NjcyNCw5NjAyNTI1OTVdfQ==
 -->
