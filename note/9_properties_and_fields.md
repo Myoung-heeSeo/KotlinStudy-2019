@@ -107,7 +107,14 @@ val isEmpty	//v_1.1~
 
 **프로퍼티**
 - accessor에 가시성 변경이 필요하거나 어노테이션이 필요한 경우
+- 기본 accessor의 수정 없이 body없는 accessor를 통해 정의 가능
+```kotlin
+var setterVisibility: String = "abc"
+	private set
+var setterWithAnn
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTExMjMzNiwxNTU4NzgwMDg3LC03Mz
-gxNzA3NTIsOTI5Mjg2NzI0LDk2MDI1MjU5NV19
+eyJoaXN0b3J5IjpbNjc3ODc3NTUwLDE5OTExMTIzMzYsMTU1OD
+c4MDA4NywtNzM4MTcwNzUyLDkyOTI4NjcyNCw5NjAyNTI1OTVd
+fQ==
 -->
