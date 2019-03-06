@@ -146,8 +146,13 @@ var counter = 0
 	}
 ```
 - Backing field를 생성하지 않는 경우
+```kotlin
+val isEmpty: Boolean
+	get() = this.size == 0
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDg3NTIzNiwxNzE2NjczNTIsMTk5MT
+eyJoaXN0b3J5IjpbLTY2NzY0NDkzNiwxNzE2NjczNTIsMTk5MT
 ExMjMzNiwxNTU4NzgwMDg3LC03MzgxNzA3NTIsOTI5Mjg2NzI0
 LDk2MDI1MjU5NV19
 -->
