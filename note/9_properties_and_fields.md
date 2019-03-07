@@ -153,10 +153,15 @@ val isEmpty: Boolean
 **Backing Properties**
 - "implicit backing field" 방식이 맞지 않는 경우에는 "backing property"를 이용할 수도 있다.
 ```kotlin
-private var _table: Map
+private var _table: Map<String, Int>? = null
+public val table: Map<String, Int>
+	get() {
+		if (_table == null) {
+			_table = HashMap()
+		}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTk0NzM3NzcsLTY2NzY0NDkzNiwxNz
-E2NjczNTIsMTk5MTExMjMzNiwxNTU4NzgwMDg3LC03MzgxNzA3
-NTIsOTI5Mjg2NzI0LDk2MDI1MjU5NV19
+eyJoaXN0b3J5IjpbLTM4NjU5NjQyNSwtNjY3NjQ0OTM2LDE3MT
+Y2NzM1MiwxOTkxMTEyMzM2LDE1NTg3ODAwODcsLTczODE3MDc1
+Miw5MjkyODY3MjQsOTYwMjUyNTk1XX0=
 -->
