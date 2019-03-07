@@ -163,9 +163,15 @@ public val table: Map<String, Int>
 	}
 ```
 **Compile-Time Constants
+- const modifier를 이용하면 컴파일 타임 상수를 만들 수 있음
+	* 이런 프로퍼티는 어노테이션에서도 사용 가능
+- 조건
+	* Top-level 이거나
+	* object의 멤버이거나
+	* St
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg4NDUyMDI0LC0xMjUwODUxMTE5LC03MT
-I2NDQ5MywtMzg2NTk2NDI1LC02Njc2NDQ5MzYsMTcxNjY3MzUy
-LDE5OTExMTIzMzYsMTU1ODc4MDA4NywtNzM4MTcwNzUyLDkyOT
-I4NjcyNCw5NjAyNTI1OTVdfQ==
+eyJoaXN0b3J5IjpbLTE5NDE5MzE1Niw3ODg0NTIwMjQsLTEyNT
+A4NTExMTksLTcxMjY0NDkzLC0zODY1OTY0MjUsLTY2NzY0NDkz
+NiwxNzE2NjczNTIsMTk5MTExMjMzNiwxNTU4NzgwMDg3LC03Mz
+gxNzA3NTIsOTI5Mjg2NzI0LDk2MDI1MjU5NV19
 -->
