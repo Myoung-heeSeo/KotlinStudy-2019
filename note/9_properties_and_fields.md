@@ -160,8 +160,10 @@ public val table: Map<String, Int>
 			_table = HashMap()
 		}
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjU5NjQyNSwtNjY3NjQ0OTM2LDE3MT
-Y2NzM1MiwxOTkxMTEyMzM2LDE1NTg3ODAwODcsLTczODE3MDc1
-Miw5MjkyODY3MjQsOTYwMjUyNTk1XX0=
+eyJoaXN0b3J5IjpbLTcxMjY0NDkzLC0zODY1OTY0MjUsLTY2Nz
+Y0NDkzNiwxNzE2NjczNTIsMTk5MTExMjMzNiwxNTU4NzgwMDg3
+LC03MzgxNzA3NTIsOTI5Mjg2NzI0LDk2MDI1MjU5NV19
 -->
