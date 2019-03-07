@@ -142,7 +142,7 @@ var counter = 0
 //the initializer value is written directly to the backing field
 var counter = 0
 	set(value) {
-		if(value > =) field = value
+		if(value > = 0 ) field = value
 	}
 ```
 - Backing field를 생성하지 않는 경우
@@ -163,7 +163,8 @@ public val table: Map<String, Int>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjY0NDkzLC0zODY1OTY0MjUsLTY2Nz
-Y0NDkzNiwxNzE2NjczNTIsMTk5MTExMjMzNiwxNTU4NzgwMDg3
-LC03MzgxNzA3NTIsOTI5Mjg2NzI0LDk2MDI1MjU5NV19
+eyJoaXN0b3J5IjpbLTEyNTA4NTExMTksLTcxMjY0NDkzLC0zOD
+Y1OTY0MjUsLTY2NzY0NDkzNiwxNzE2NjczNTIsMTk5MTExMjMz
+NiwxNTU4NzgwMDg3LC03MzgxNzA3NTIsOTI5Mjg2NzI0LDk2MD
+I1MjU5NV19
 -->
