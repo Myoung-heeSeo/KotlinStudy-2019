@@ -168,10 +168,16 @@ public val table: Map<String, Int>
 - 조건
 	* Top-level 이거나
 	* object의 멤버이거나
-	* String이나 프리미
+	* String이나 프리미티브 타입으로 초기화된 경우
+```kotlin
+const val SUBSYSTEM_DEPRECATED : String = "This subsystem is deprecated"
+
+@Deprecated(SUBSYSTEM_DEPRECATED)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg1MDc1NTc2LDc4ODQ1MjAyNCwtMTI1MD
-g1MTExOSwtNzEyNjQ0OTMsLTM4NjU5NjQyNSwtNjY3NjQ0OTM2
-LDE3MTY2NzM1MiwxOTkxMTEyMzM2LDE1NTg3ODAwODcsLTczOD
-E3MDc1Miw5MjkyODY3MjQsOTYwMjUyNTk1XX0=
+eyJoaXN0b3J5IjpbLTQ0Nzg1ODAzLDM4NTA3NTU3Niw3ODg0NT
+IwMjQsLTEyNTA4NTExMTksLTcxMjY0NDkzLC0zODY1OTY0MjUs
+LTY2NzY0NDkzNiwxNzE2NjczNTIsMTk5MTExMjMzNiwxNTU4Nz
+gwMDg3LC03MzgxNzA3NTIsOTI5Mjg2NzI0LDk2MDI1MjU5NV19
+
 -->
