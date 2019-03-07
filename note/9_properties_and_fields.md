@@ -159,13 +159,13 @@ public val table: Map<String, Int>
 		if (_table == null) {
 			_table = HashMap()
 		}
-		return _table ?
+		return _table ?: throw AssertionError("null ")
+	}
 ```
-
-
+**Compile-Time Constants
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NDI3MDY5MywtMTI1MDg1MTExOSwtNz
-EyNjQ0OTMsLTM4NjU5NjQyNSwtNjY3NjQ0OTM2LDE3MTY2NzM1
-MiwxOTkxMTEyMzM2LDE1NTg3ODAwODcsLTczODE3MDc1Miw5Mj
-kyODY3MjQsOTYwMjUyNTk1XX0=
+eyJoaXN0b3J5IjpbNzg4NDUyMDI0LC0xMjUwODUxMTE5LC03MT
+I2NDQ5MywtMzg2NTk2NDI1LC02Njc2NDQ5MzYsMTcxNjY3MzUy
+LDE5OTExMTIzMzYsMTU1ODc4MDA4NywtNzM4MTcwNzUyLDkyOT
+I4NjcyNCw5NjAyNTI1OTVdfQ==
 -->
