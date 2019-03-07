@@ -159,12 +159,13 @@ public val table: Map<String, Int>
 		if (_table == null) {
 			_table = HashMap()
 		}
+		return _table ?
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTA4NTExMTksLTcxMjY0NDkzLC0zOD
-Y1OTY0MjUsLTY2NzY0NDkzNiwxNzE2NjczNTIsMTk5MTExMjMz
-NiwxNTU4NzgwMDg3LC03MzgxNzA3NTIsOTI5Mjg2NzI0LDk2MD
-I1MjU5NV19
+eyJoaXN0b3J5IjpbLTI0NDI3MDY5MywtMTI1MDg1MTExOSwtNz
+EyNjQ0OTMsLTM4NjU5NjQyNSwtNjY3NjQ0OTM2LDE3MTY2NzM1
+MiwxOTkxMTEyMzM2LDE1NTg3ODAwODcsLTczODE3MDc1Miw5Mj
+kyODY3MjQsOTYwMjUyNTk1XX0=
 -->
