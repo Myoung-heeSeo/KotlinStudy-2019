@@ -38,6 +38,7 @@
 ```kotlin
 fun printKotlin(){
 	println("hello")
+}
 ```
 **지역 변수 정의**
 - val: 읽기전용 변수로 값의 할당이 1회만 가능한 final(java)이나 const(C++)과 유사
@@ -173,6 +174,6 @@ fruits
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzczNDY3MDYsMjk4NTA4MDE4LC0zNz
-EwODc4NDldfQ==
+eyJoaXN0b3J5IjpbMTYzNzk0NzYzNSwtMTQzNzM0NjcwNiwyOT
+g1MDgwMTgsLTM3MTA4Nzg0OV19
 -->
