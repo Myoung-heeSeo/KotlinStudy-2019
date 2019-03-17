@@ -162,7 +162,7 @@ public val table: Map<String, Int>
 		return _table ?: throw AssertionError("null ")
 	}
 ```
-**Compile-Time Constants
+**Compile-Time Constants**
 - const modifier를 이용하면 컴파일 타임 상수를 만들 수 있음
 	* 이런 프로퍼티는 어노테이션에서도 사용 가능
 - 조건
@@ -175,10 +175,17 @@ const val SUBSYSTEM_DEPRECATED : String = "This subsystem is deprecated"
 @Deprecated(SUBSYSTEM_DEPRECATED)
 fun foo() {}
 ```
+
+**Late-IInitialized Properties**
+- 일반적으로 프로퍼티는 non-null타입으로 선언됨
+- 간혹 non-null타입 프로퍼티를 사용ㅎㅏ고 싶지만, 생성자에서 초기화를 해줄 수 없는 경우가 있음
+	* Dependency injection
+	* Butter knife
+	* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAyNDE0MTg0LC0xNzQ2MDg3Mzg5LDM4NT
-A3NTU3Niw3ODg0NTIwMjQsLTEyNTA4NTExMTksLTcxMjY0NDkz
-LC0zODY1OTY0MjUsLTY2NzY0NDkzNiwxNzE2NjczNTIsMTk5MT
-ExMjMzNiwxNTU4NzgwMDg3LC03MzgxNzA3NTIsOTI5Mjg2NzI0
-LDk2MDI1MjU5NV19
+eyJoaXN0b3J5IjpbLTEwNTM5NTk1OTEsOTAyNDE0MTg0LC0xNz
+Q2MDg3Mzg5LDM4NTA3NTU3Niw3ODg0NTIwMjQsLTEyNTA4NTEx
+MTksLTcxMjY0NDkzLC0zODY1OTY0MjUsLTY2NzY0NDkzNiwxNz
+E2NjczNTIsMTk5MTExMjMzNiwxNTU4NzgwMDg3LC03MzgxNzA3
+NTIsOTI5Mjg2NzI0LDk2MDI1MjU5NV19
 -->
