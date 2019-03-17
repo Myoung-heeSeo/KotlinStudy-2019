@@ -28,6 +28,15 @@ data class User(val name: String, val age: Int)
 - Data클래스 interface 구현 가능
 - Sealed class 상속 가능
 
+**기본 값**
+- Jvm에서 파라미터 없는 생성자가 필요한 경우, 모든 프로퍼티에 기본값을 설정해 주면 됨
+```kotlin
+data class Unser(val name: String = "", val age: Int = 0)
+```
+```kotlin
+val exam_0 = User()
+val exam_1 = User("Kotlin"
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODAxOTY1N119
+eyJoaXN0b3J5IjpbNDE4MzM5MTQ4XX0=
 -->
