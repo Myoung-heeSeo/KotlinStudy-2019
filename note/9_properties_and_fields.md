@@ -200,16 +200,17 @@ public class MyTest{
 - 조건
 	* 클래스의 바디에서 선언된 프로퍼티만 가능
 	* 기본생성자에서 선언된 프로퍼티는 안 됨
-	* var 프로퍼티만 가능
+	* var 프로퍼티만 가능(val x)
 	* custom accessor이 없어야 함
 	* non-null 타입이어야 함
 	* 프리미티브 타입이면 안됨 
+```ko
 - lateinit 프로퍼티가 초기화 되기 전에 접근되면, 오류 발생
 	* kotlin.UninitializedPropertyAccessException: lateinit property tet has not been initialized
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODcyNjQwLDkwMjQxNDE4NCwtMTc0Nj
-A4NzM4OSwzODUwNzU1NzYsNzg4NDUyMDI0LC0xMjUwODUxMTE5
-LC03MTI2NDQ5MywtMzg2NTk2NDI1LC02Njc2NDQ5MzYsMTcxNj
-Y3MzUyLDE5OTExMTIzMzYsMTU1ODc4MDA4NywtNzM4MTcwNzUy
-LDkyOTI4NjcyNCw5NjAyNTI1OTVdfQ==
+eyJoaXN0b3J5IjpbLTMzMjQzMTM3MiwxODk4NzI2NDAsOTAyND
+E0MTg0LC0xNzQ2MDg3Mzg5LDM4NTA3NTU3Niw3ODg0NTIwMjQs
+LTEyNTA4NTExMTksLTcxMjY0NDkzLC0zODY1OTY0MjUsLTY2Nz
+Y0NDkzNiwxNzE2NjczNTIsMTk5MTExMjMzNiwxNTU4NzgwMDg3
+LC03MzgxNzA3NTIsOTI5Mjg2NzI0LDk2MDI1MjU5NV19
 -->
