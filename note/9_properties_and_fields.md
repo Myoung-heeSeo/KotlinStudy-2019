@@ -195,9 +195,19 @@ public class MyTest{
 	}
 }
 ```
-- 객체가 constructor에서는 할당되지 못하지만 여전히 non-null타입으로 사용하고 싶은 경
+- 객체가 constructor에서는 할당되지 못하지만 여전히 non-null타입으로 사용하고 싶은 경우
+- Lateinit modifier 사용가능
+- 조건
+	* 클래스의 바디에서 선언된 프로퍼티만 가능
+	* 기본생성자에서 선언된 프로퍼티는 안 됨
+	* var 프로퍼티만 가능
+	* custom accessor이 없어야 함
+	* non-null 타입이어야 함
+	* 프리미티브 타입이면 안됨 
+- lateinit 프로퍼티가 초기화 되기 전에 접근되면, 오류 발생
+	* kotlin.UninitializedPropertyAc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2Mzc0MzQ0Nyw5MDI0MTQxODQsLTE3ND
+eyJoaXN0b3J5IjpbMTQwMDQ5MTcyOCw5MDI0MTQxODQsLTE3ND
 YwODczODksMzg1MDc1NTc2LDc4ODQ1MjAyNCwtMTI1MDg1MTEx
 OSwtNzEyNjQ0OTMsLTM4NjU5NjQyNSwtNjY3NjQ0OTM2LDE3MT
 Y2NzM1MiwxOTkxMTEyMzM2LDE1NTg3ODAwODcsLTczODE3MDc1
