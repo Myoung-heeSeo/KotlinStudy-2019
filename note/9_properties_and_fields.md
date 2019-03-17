@@ -204,13 +204,21 @@ public class MyTest{
 	* custom accessor이 없어야 함
 	* non-null 타입이어야 함
 	* 프리미티브 타입이면 안됨 
-```ko
+```kotlin
+class Address() {
+	lateinit var data: String
+	
+	fun setUp() {
+		data = "나중에"
+	}
+}
+```
 - lateinit 프로퍼티가 초기화 되기 전에 접근되면, 오류 발생
 	* kotlin.UninitializedPropertyAccessException: lateinit property tet has not been initialized
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjQzMTM3MiwxODk4NzI2NDAsOTAyND
-E0MTg0LC0xNzQ2MDg3Mzg5LDM4NTA3NTU3Niw3ODg0NTIwMjQs
-LTEyNTA4NTExMTksLTcxMjY0NDkzLC0zODY1OTY0MjUsLTY2Nz
-Y0NDkzNiwxNzE2NjczNTIsMTk5MTExMjMzNiwxNTU4NzgwMDg3
-LC03MzgxNzA3NTIsOTI5Mjg2NzI0LDk2MDI1MjU5NV19
+eyJoaXN0b3J5IjpbODgyMTQ4ODM5LDE4OTg3MjY0MCw5MDI0MT
+QxODQsLTE3NDYwODczODksMzg1MDc1NTc2LDc4ODQ1MjAyNCwt
+MTI1MDg1MTExOSwtNzEyNjQ0OTMsLTM4NjU5NjQyNSwtNjY3Nj
+Q0OTM2LDE3MTY2NzM1MiwxOTkxMTEyMzM2LDE1NTg3ODAwODcs
+LTczODE3MDc1Miw5MjkyODY3MjQsOTYwMjUyNTk1XX0=
 -->
