@@ -176,9 +176,9 @@ const val SUBSYSTEM_DEPRECATED : String = "This subsystem is deprecated"
 fun foo() {}
 ```
 
-**Late-IInitialized Properties**
+**Late-Initialized Properties**
 - 일반적으로 프로퍼티는 non-null타입으로 선언됨
-- 간혹 non-null타입 프로퍼티를 사용ㅎㅏ고 싶지만, 생성자에서 초기화를 해줄 수 없는 경우가 있음
+- 간혹 non-null타입 프로퍼티를 사용하고 싶지만, 생성자에서 초기화를 해줄 수 없는 경우가 있음
 	* Dependency injection
 	* Butter knife
 	* Unit test의 setup 메소드
@@ -193,11 +193,13 @@ public class MyTest{
 	@Test fun test() {
 		subject.method() // dereference directly
 	}
+}
 ```
+- 객체가 constructor에서는 할당되지 못하지만 여전히 non-null타입으로 사용하고 싶은 경
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjcyNDQ5ODgsOTAyNDE0MTg0LC0xNz
-Q2MDg3Mzg5LDM4NTA3NTU3Niw3ODg0NTIwMjQsLTEyNTA4NTEx
-MTksLTcxMjY0NDkzLC0zODY1OTY0MjUsLTY2NzY0NDkzNiwxNz
-E2NjczNTIsMTk5MTExMjMzNiwxNTU4NzgwMDg3LC03MzgxNzA3
-NTIsOTI5Mjg2NzI0LDk2MDI1MjU5NV19
+eyJoaXN0b3J5IjpbMTA2Mzc0MzQ0Nyw5MDI0MTQxODQsLTE3ND
+YwODczODksMzg1MDc1NTc2LDc4ODQ1MjAyNCwtMTI1MDg1MTEx
+OSwtNzEyNjQ0OTMsLTM4NjU5NjQyNSwtNjY3NjQ0OTM2LDE3MT
+Y2NzM1MiwxOTkxMTEyMzM2LDE1NTg3ODAwODcsLTczODE3MDc1
+Miw5MjkyODY3MjQsOTYwMjUyNTk1XX0=
 -->
