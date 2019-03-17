@@ -181,9 +181,21 @@ fun foo() {}
 - 간혹 non-null타입 프로퍼티를 사용ㅎㅏ고 싶지만, 생성자에서 초기화를 해줄 수 없는 경우가 있음
 	* Dependency injection
 	* Butter knife
-	* 
+	* Unit test의 setup 메소드
+```kotlin
+public class MyTest{
+	lateinit var subject: TestSubject
+
+	@SetUp fun setup() {
+		subject = TestSubject()
+	}
+
+	@Test fun test() {
+		subject.method() // dereference directly
+	}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTM5NTk1OTEsOTAyNDE0MTg0LC0xNz
+eyJoaXN0b3J5IjpbLTE3MjcyNDQ5ODgsOTAyNDE0MTg0LC0xNz
 Q2MDg3Mzg5LDM4NTA3NTU3Niw3ODg0NTIwMjQsLTEyNTA4NTEx
 MTksLTcxMjY0NDkzLC0zODY1OTY0MjUsLTY2NzY0NDkzNiwxNz
 E2NjczNTIsMTk5MTExMjMzNiwxNTU4NzgwMDg3LC03MzgxNzA3
