@@ -205,11 +205,11 @@ public class MyTest{
 	* non-null 타입이어야 함
 	* 프리미티브 타입이면 안됨 
 - lateinit 프로퍼티가 초기화 되기 전에 접근되면, 오류 발생
-	* kotlin.UninitializedPropertyAc
+	* kotlin.UninitializedPropertyAccessException: lateinit property tet has not been initialized
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDQ5MTcyOCw5MDI0MTQxODQsLTE3ND
-YwODczODksMzg1MDc1NTc2LDc4ODQ1MjAyNCwtMTI1MDg1MTEx
-OSwtNzEyNjQ0OTMsLTM4NjU5NjQyNSwtNjY3NjQ0OTM2LDE3MT
-Y2NzM1MiwxOTkxMTEyMzM2LDE1NTg3ODAwODcsLTczODE3MDc1
-Miw5MjkyODY3MjQsOTYwMjUyNTk1XX0=
+eyJoaXN0b3J5IjpbMTg5ODcyNjQwLDkwMjQxNDE4NCwtMTc0Nj
+A4NzM4OSwzODUwNzU1NzYsNzg4NDUyMDI0LC0xMjUwODUxMTE5
+LC03MTI2NDQ5MywtMzg2NTk2NDI1LC02Njc2NDQ5MzYsMTcxNj
+Y3MzUyLDE5OTExMTIzMzYsMTU1ODc4MDA4NywtNzM4MTcwNzUy
+LDkyOTI4NjcyNCw5NjAyNTI1OTVdfQ==
 -->
