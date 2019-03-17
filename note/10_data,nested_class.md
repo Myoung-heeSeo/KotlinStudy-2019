@@ -41,6 +41,12 @@ val exam_3 = User(age=113)
 val exam_4 = User(name="Kotlin", age=113)
 ```
 
+**복사**
+- 객체의 기존 값들은 유지하고, 일부 값만 고쳐서 새로운 객체를 만들고 싶은 경우
+- Data 클래스에 컴파일러가 copy를 만들어주기 때문에(copy 함수) 바로 copy를 호출해서 쓰면 됨
+```kotlin
+
+`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjU4MTIzMzNdfQ==
+eyJoaXN0b3J5IjpbLTQ3OTU1NTU1MCwtMTI2NTgxMjMzM119
 -->
