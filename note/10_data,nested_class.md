@@ -35,8 +35,12 @@ data class Unser(val name: String = "", val age: Int = 0)
 ```
 ```kotlin
 val exam_0 = User()
-val exam_1 = User("Kotlin"
+val exam_1 = User("Kotlin")
+val exam_2 = User("Kotlin", 113)
+val exam_3 = User(age=113)
+val exam_4 = User(name="Kotlin", age=113)
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4MzM5MTQ4XX0=
+eyJoaXN0b3J5IjpbLTEyNjU4MTIzMzNdfQ==
 -->
