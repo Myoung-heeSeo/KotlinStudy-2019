@@ -166,7 +166,7 @@ public val table: Map<String, Int>
 - const modifier를 이용하면 컴파일 타임 상수를 만들 수 있음
 	* 이런 프로퍼티는 어노테이션에서도 사용 가능
 - 조건
-	* Top-level 이거나(class안에 들어감
+	* Top-level 이거나(class안에 들어가면 x)
 	* object의 멤버이거나
 	* String이나 프리미티브 타입으로 초기화된 경우
 ```kotlin
@@ -176,9 +176,9 @@ const val SUBSYSTEM_DEPRECATED : String = "This subsystem is deprecated"
 fun foo() {}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzk3NDQzNTcsLTE3NDYwODczODksMz
-g1MDc1NTc2LDc4ODQ1MjAyNCwtMTI1MDg1MTExOSwtNzEyNjQ0
-OTMsLTM4NjU5NjQyNSwtNjY3NjQ0OTM2LDE3MTY2NzM1MiwxOT
-kxMTEyMzM2LDE1NTg3ODAwODcsLTczODE3MDc1Miw5MjkyODY3
-MjQsOTYwMjUyNTk1XX0=
+eyJoaXN0b3J5IjpbOTAyNDE0MTg0LC0xNzQ2MDg3Mzg5LDM4NT
+A3NTU3Niw3ODg0NTIwMjQsLTEyNTA4NTExMTksLTcxMjY0NDkz
+LC0zODY1OTY0MjUsLTY2NzY0NDkzNiwxNzE2NjczNTIsMTk5MT
+ExMjMzNiwxNTU4NzgwMDg3LC03MzgxNzA3NTIsOTI5Mjg2NzI0
+LDk2MDI1MjU5NV19
 -->
