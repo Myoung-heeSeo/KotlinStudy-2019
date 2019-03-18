@@ -72,7 +72,13 @@ println(jane) // User(name=Jane, age=35)
 val pair = Pair("Jane", 35)
 println(pair) //(Jane, 35)
 ```
+
+**중첩 클래스(Nested Classes)**
+- 클래스는 다른 클래스에 중첩될 수 있음
+```kotlin
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYyOTEyMTkxLC0xNTMwMTczMDczLC01OT
-c3MDI1NSwtODY3OTI2NDkxLC0xMjY1ODEyMzMzXX0=
+eyJoaXN0b3J5IjpbMTg0OTkxNjE1MywtMTUzMDE3MzA3MywtNT
+k3NzAyNTUsLTg2NzkyNjQ5MSwtMTI2NTgxMjMzM119
 -->
