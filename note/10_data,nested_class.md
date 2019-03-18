@@ -60,8 +60,18 @@ val (name, age) - jane
 println("$name, $age years of age")
 //prints "Jane, 35 years of age"
 ```
- **
+ **Standard Data Classes**
+ - 스탠다드 라이브러리에서 제공하는 data클래스도 있다.
+	 * Pair
+	 * Triple
+- 물론 가독성을 위해서는 프로퍼티에 의미 있는 이름을 제공하는 클래스가 최고임
+```kotlin
+val jane = User("Jane", 35)
+println(jane) // User(name=Jane, age=35)
+
+val pai
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzcyOTkzNywtMTUzMDE3MzA3MywtNT
-k3NzAyNTUsLTg2NzkyNjQ5MSwtMTI2NTgxMjMzM119
+eyJoaXN0b3J5IjpbNDIyNzY0MDEwLC0xNTMwMTczMDczLC01OT
+c3MDI1NSwtODY3OTI2NDkxLC0xMjY1ODEyMzMzXX0=
 -->
