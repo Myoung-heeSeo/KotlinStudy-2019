@@ -76,9 +76,16 @@ println(pair) //(Jane, 35)
 **중첩 클래스(Nested Classes)**
 - 클래스는 다른 클래스에 중첩될 수 있음
 ```kotlin
+class Outer{
+	private val bar: Int = 1
 
+	class Nested{
+		fun foo() = 2
+	}
+}
+val demo = Outer().Inner().foo() // ==1
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0OTkxNjE1MywtMTUzMDE3MzA3MywtNT
-k3NzAyNTUsLTg2NzkyNjQ5MSwtMTI2NTgxMjMzM119
+eyJoaXN0b3J5IjpbNDI2MjI0NTgwLC0xNTMwMTczMDczLC01OT
+c3MDI1NSwtODY3OTI2NDkxLC0xMjY1ODEyMzMzXX0=
 -->
