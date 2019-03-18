@@ -69,9 +69,10 @@ println("$name, $age years of age")
 val jane = User("Jane", 35)
 println(jane) // User(name=Jane, age=35)
 
-val pai
+val pair = Pair("Jane", 35)
+println(pair) //(Jane, 35)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIyNzY0MDEwLC0xNTMwMTczMDczLC01OT
+eyJoaXN0b3J5IjpbNDYyOTEyMTkxLC0xNTMwMTczMDczLC01OT
 c3MDI1NSwtODY3OTI2NDkxLC0xMjY1ODEyMzMzXX0=
 -->
