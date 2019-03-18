@@ -41,7 +41,7 @@ val exam_3 = User(age=113)
 val exam_4 = User(name="Kotlin", age=113)
 ```
 
-**복사**
+**복사(Copy)**
 - 객체의 기존 값들은 유지하고, 일부 값만 고쳐서 새로운 객체를 만들고 싶은 경우
 - Data 클래스에 컴파일러가 copy를 만들어주기 때문에(copy 함수) 바로 copy를 호출해서 쓰면 됨
 ```kotlin
@@ -51,6 +51,16 @@ fun copy(name: String = this.name, age = this.age) = User(name, age)
 val jack = User(name = "Jack", age = 1)
 val olderjack = jack.copy(age = 2)
 ```
+**Destructuring Declarations**
+- data 클래스는 destructuring declarations을 사용 가능
+-컴파일러가 componentN함수를 자동 생성하기 때문
+```kotlin
+val jane = User("Jane", 35)
+val (name, age) - jane
+println("$name, $age years of age")
+//prints "Jane, 35 years of age
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzkyNjQ5MSwtMTI2NTgxMjMzM119
+eyJoaXN0b3J5IjpbLTU5NzcwMjU1LC04Njc5MjY0OTEsLTEyNj
+U4MTIzMzNdfQ==
 -->
