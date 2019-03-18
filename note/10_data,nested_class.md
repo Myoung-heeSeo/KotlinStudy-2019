@@ -58,9 +58,10 @@ val olderjack = jack.copy(age = 2)
 val jane = User("Jane", 35)
 val (name, age) - jane
 println("$name, $age years of age")
-//prints "Jane, 35 years of age
+//prints "Jane, 35 years of age"
 ```
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NzcwMjU1LC04Njc5MjY0OTEsLTEyNj
-U4MTIzMzNdfQ==
+eyJoaXN0b3J5IjpbLTE1MzAxNzMwNzMsLTU5NzcwMjU1LC04Nj
+c5MjY0OTEsLTEyNjU4MTIzMzNdfQ==
 -->
