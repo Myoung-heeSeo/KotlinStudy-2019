@@ -98,7 +98,17 @@ class Outer{
 
 val demo = Outer().Inner().foo()	//==1
 ```
+
+**익명 내부 클래스(Anonymous inner classes)**
+- 객체 표현식(object expression)을 이용해서 익명 내부 클래스의 인스턴스를 생성할 수 있음
+```kotlin
+mSearchEditText.setOnClickListener(object : view.OnClickListener {
+	override fun onClick(v: View?) {	// ...
+	}
+})
+```
+- Functional java interface인 경ㅇㅜ에는 접두어에 인터페이스 이름을 사용해
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTYzNzMyMDcsLTE1MzAxNzMwNzMsLT
-U5NzcwMjU1LC04Njc5MjY0OTEsLTEyNjU4MTIzMzNdfQ==
+eyJoaXN0b3J5IjpbMTczMTM0NTIyMywtMTUzMDE3MzA3MywtNT
+k3NzAyNTUsLTg2NzkyNjQ5MSwtMTI2NTgxMjMzM119
 -->
