@@ -83,9 +83,22 @@ class Outer{
 		fun foo() = 2
 	}
 }
-val demo = Outer().Inner().foo() // ==1
+val demo = Outer().Nested().foo() // ==2
+```
+
+**내부 클래스(Inner Class)**
+- 클래스에 inner를 표기하면 바깥쪽 클래스의 멤버에 접근 할 수 있음
+```kotlin
+class Outer{
+	private val bar: Int = 1
+	inner class Inner {
+		fun foo() = bar
+	}
+}
+
+val demo = Outer().Inner().foo()	//==1
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI2MjI0NTgwLC0xNTMwMTczMDczLC01OT
-c3MDI1NSwtODY3OTI2NDkxLC0xMjY1ODEyMzMzXX0=
+eyJoaXN0b3J5IjpbLTE3OTYzNzMyMDcsLTE1MzAxNzMwNzMsLT
+U5NzcwMjU1LC04Njc5MjY0OTEsLTEyNjU4MTIzMzNdfQ==
 -->
