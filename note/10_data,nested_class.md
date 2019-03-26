@@ -107,13 +107,14 @@ mSearchEditText.setOnClickListener(object : view.OnClickListener {
 	}
 })
 ```
-- Functional java interface인 경ㅇㅜ에는 접두어에 인터페이스 이름을 사용해서 람다식으로 표현할 수도 있음
+- Functional java interface인 경우에는 접두어에 인터페이스 이름을 사용해서 람다식으로 표현할 수도 있음
 ```kotlin
 mSearchEditText.setOnClickListener( View.OnClickListener{
 	v -> //...
 })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQ3NTg1ODAsLTE1MzAxNzMwNzMsLT
-U5NzcwMjU1LC04Njc5MjY0OTEsLTEyNjU4MTIzMzNdfQ==
+eyJoaXN0b3J5IjpbMTUzMTM3ODE5NSwtMTg1NDc1ODU4MCwtMT
+UzMDE3MzA3MywtNTk3NzAyNTUsLTg2NzkyNjQ5MSwtMTI2NTgx
+MjMzM119
 -->
