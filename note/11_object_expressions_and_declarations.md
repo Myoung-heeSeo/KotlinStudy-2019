@@ -11,8 +11,9 @@
 1. Object Expressions
 	- java 익명 객체
 2. Object Declarations
+	- 싱글턴
 3. Companion Object
-
+	- 싱글턴 + class method (static)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0MTgyMDExXX0=
+eyJoaXN0b3J5IjpbMTk4NDQ0ODA1Ml19
 -->
