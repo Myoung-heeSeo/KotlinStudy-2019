@@ -128,6 +128,7 @@ fun describe(obj: Any): String =
 		is Long -> "Long"
 		!is String -> "Not a string"
 		else -> "Unknown"
+	}
 ```
 **Ranges**
 - In 연산자를 이용해 숫자 범위 체크 가능
@@ -174,5 +175,5 @@ fruits
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNzk0NzYzNV19
+eyJoaXN0b3J5IjpbLTE4ODc2MjQ4NTQsMTYzNzk0NzYzNV19
 -->
