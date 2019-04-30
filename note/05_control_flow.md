@@ -35,6 +35,7 @@ val max = if(a>b) a else b
 **When**
 - switch문 역할
 - 각각의 branches의 조건문에 만족할 때 까지 위에서 부터 순차적으로 인자를 비교함
+- 맨 처음 해당 값만 실행
 ```kotlin
 when(x) {
 	1 -> print("x == 1")
@@ -147,5 +148,5 @@ do {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4Njc4NTQ4XX0=
+eyJoaXN0b3J5IjpbMTExMTUzNDA3OSw0MDg2Nzg1NDhdfQ==
 -->
