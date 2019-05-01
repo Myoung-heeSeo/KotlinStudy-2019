@@ -31,7 +31,7 @@ open class Base(p: Int)
 class Derived(p: Int) : Base(p)
 ```
 - 파생클래스에 기본생성자가 없으면 	
-	* 각각의 보조생성자에서 사위타입을 super키워드를 이용하여 초기화하거나
+	* 각각의 보조생성자에서 상위타입을 super키워드를 이용하여 초기화하거나
 	* 다른 생성자에게 상위타입을 초기화할 수 있게 위임해주어야함
 ```kotlin
 class MyView : View {
@@ -106,5 +106,5 @@ class MyClass(): AbClass(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzMwNzk1MDldfQ==
+eyJoaXN0b3J5IjpbMTQ3ODM0MzYxNiwtMTgzMzA3OTUwOV19
 -->
