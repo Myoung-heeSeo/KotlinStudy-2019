@@ -15,6 +15,8 @@
 3. Companion Object(kotlin은 static이 없음)
 	- 싱글턴 + class method (static)
 
+**object expressions**
+- 객체 표현식 상속
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMDIwMzQ1NCwxOTg0NDQ4MDUyXX0=
+eyJoaXN0b3J5IjpbLTE4NDQ0MDgzMTcsMTk4NDQ0ODA1Ml19
 -->
