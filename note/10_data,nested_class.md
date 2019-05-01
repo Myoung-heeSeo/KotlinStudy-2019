@@ -31,7 +31,7 @@ data class User(val name: String, val age: Int)
 **기본 값**
 - Jvm에서 파라미터 없는 생성자가 필요한 경우, 모든 프로퍼티에 기본값을 설정해 주면 됨
 ```kotlin
-data class Unser(val name: String = "", val age: Int = 0)
+data class User(val name: String = "", val age: Int = 0)
 ```
 ```kotlin
 val exam_0 = User()
@@ -114,7 +114,7 @@ mSearchEditText.setOnClickListener( View.OnClickListener{
 })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTM3ODE5NSwtMTg1NDc1ODU4MCwtMT
-UzMDE3MzA3MywtNTk3NzAyNTUsLTg2NzkyNjQ5MSwtMTI2NTgx
-MjMzM119
+eyJoaXN0b3J5IjpbMTcyNTkwMTg5NSwxNTMxMzc4MTk1LC0xOD
+U0NzU4NTgwLC0xNTMwMTczMDczLC01OTc3MDI1NSwtODY3OTI2
+NDkxLC0xMjY1ODEyMzMzXX0=
 -->
