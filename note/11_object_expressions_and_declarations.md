@@ -12,8 +12,9 @@
 	- java 익명 객체
 2. Object Declarations
 	- 싱글턴
-3. Companion Object
+3. Companion Object(kotlin은 static이 없음)
 	- 싱글턴 + class method (static)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NDQ0ODA1Ml19
+eyJoaXN0b3J5IjpbLTMzMDIwMzQ1NCwxOTg0NDQ4MDUyXX0=
 -->
