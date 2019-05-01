@@ -17,6 +17,9 @@
 
 **object expressions**
 - 객체 표현식 상속
+	- 슈퍼타입의 생성자가 있는 경우, 반드시 값을 전달 해 주어야함
+	- 슈퍼타입이 여러개인 경우 ':'콜론 뒤에, ',' 콤마로 구분해서 명시해주면 됨
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDQ0MDgzMTcsMTk4NDQ0ODA1Ml19
+eyJoaXN0b3J5IjpbNTE4OTA5MjksMTk4NDQ0ODA1Ml19
 -->
