@@ -35,6 +35,7 @@ var <propertyName>[: <PropertyType>][=<property_initializer>]
 	* property_initializer
 	* getter
 	* setter
+	
 **프로퍼티 예제**
 - 두코드는 거의 같음
 ```kotlin
@@ -216,5 +217,5 @@ class Address() {
 - lateinit 프로퍼티가 초기화 되기 전에 접근되면, 오류 발생
 	* kotlin.UninitializedPropertyAccessException: lateinit property tet has not been initialized
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyMTQ4ODM5XX0=
+eyJoaXN0b3J5IjpbMTUwNTk5MjgyOSw4ODIxNDg4MzldfQ==
 -->
